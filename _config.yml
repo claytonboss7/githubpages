@@ -5,7 +5,7 @@ git_branch: master
 logo_url: https://www.crew-united.com/Media/Images/1000/1000632/1000632.big.jpg
 google_analytics:
 wiki_folder: wiki
-custom_head: true
+custom_head: false
 custom_sidebar: false
 custom_footer: false
 plugins:
