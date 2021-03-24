@@ -53,3 +53,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
+# Releases
+## Sprint 1
+## Sprint 2
+## Sprint 3
