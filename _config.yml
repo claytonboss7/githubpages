@@ -2,8 +2,8 @@ title: voyajer-wiki
 description: documentation for the voyajer app
 show_downloads: true
 git_branch: gh-pages
-logo_url: https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/logo.jpg
-logo_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/Wiki-black.png
+logo_url: https://www.crew-united.com/Media/Images/1000/1000632/1000632.big.jpg
+logo_url2: https://upload.wikimedia.org/wikipedia/commons/4/4e/Wiki-black.png
 google_analytics:
 wiki_folder: wiki
 custom_head: false
