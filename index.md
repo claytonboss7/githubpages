@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+Road Rebel Documentation
 
 You can use the [editor on GitHub](https://github.com/claytonboss7/githubpages/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
