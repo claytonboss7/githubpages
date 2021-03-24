@@ -1,10 +1,9 @@
-I"�<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+I"c<p><strong>Road Rebel</strong> facilitates travel and hotels for Entertainment Productions by having a marketplace for <strong>Vendors</strong> to bid on things available that the <strong>Customers</strong> would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.</p>
 
-<p><a href="./another-page.html">Link to another page</a>.</p>
+<p>The system utilizes a Community with Partner Plus Community Licenses as well as Sales Cloud licenses for internal Coordinators.</p>
 
-<p>There should be whitespace between paragraphs.</p>
-
-<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<h1 id="qa-sandbox">QA Sandbox</h1>
+<h2 id="click-here-for-instructions"><a href="./another-page.html">Click here for instructions</a>.</h2>
 
 <h1 id="trace-dashboard">Trace Dashboard</h1>
 
@@ -57,37 +56,29 @@
     <tr>
       <th style="text-align: left">Getting Started</th>
       <th style="text-align: left">Writing Stories</th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
       <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
-      <td> </td>
     </tr>
     <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td> </td>
+      <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
+      <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
     </tr>
     <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td> </td>
+      <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
+      <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
     </tr>
     <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td>yumm</td>
+      <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
+      <td style="text-align: left"><a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></td>
     </tr>
   </tbody>
 </table>
 
-<p>Pivotal Tracker encourages a practical agile software development process, as pioneered by VMware Pivotal Labs.
-<a href="https://www.youtube.com/watch?v=wKFkZWAH1vw"><img src="https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></p>
-
-<p>https://www.youtube.com/watch?v=wKFkZWAH1vw&amp;t=1s</p>
+<p><strong>Pivotal Tracker</strong> encourages a practical agile software development process, as pioneered by VMware Pivotal Labs.</p>
 
 <h1 id="releases">Releases</h1>
 <h2 id="sprint-1">Sprint 1</h2>

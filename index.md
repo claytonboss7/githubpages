@@ -5,6 +5,10 @@ MathJax: true
 
  **Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
 
+ The system utilizes a Community with Partner Plus Community Licenses as well as Sales Cloud licenses for internal Coordinators.
+
+# QA Sandbox
+## [Click here for instructions](./another-page.html).
 
 # Trace Dashboard
 
@@ -55,14 +59,11 @@ Pivotal Tracker is a straightforward project-planning tool that helps software d
 | Getting Started        | Writing Stories |
 |:-------------|:------------------|
 | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
-| out of stock | good and plenty   |
-| ok           | good `oreos`      |
-| ok           | good `zoute` drop |
+| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
+| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
+| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
 
-Pivotal Tracker encourages a practical agile software development process, as pioneered by VMware Pivotal Labs.
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)
-
-https://www.youtube.com/watch?v=wKFkZWAH1vw&t=1s
+**Pivotal Tracker** encourages a practical agile software development process, as pioneered by VMware Pivotal Labs.
 
 # Releases
 ## Sprint 1
