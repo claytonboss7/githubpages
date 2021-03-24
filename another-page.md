@@ -10,7 +10,8 @@ For the QA sandbox for example my username would be admin@rr.com.rrdev
 The password for this will be whatever your ccdev password was.
 
 This sandbox will be refreshed after every deployment and has been setup to automatically pull the data it needs to work, like Conga, Community users, etc.
-https://github.com/githubpages/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+![alt text](https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/rrdevlogin.jpg "rrdev")
+
 
 
 [back](./)
