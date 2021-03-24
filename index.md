@@ -3,13 +3,8 @@ layout: default
 MathJax: true
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+ **Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Trace Dashboard
 
