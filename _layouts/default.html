@@ -38,6 +38,7 @@
         <p id="titleDescription">{{ site.description | default: site.github.project_tagline }}</p>
       </div>
       <div id="titleRight">
+
       </div>
     </div>
 
@@ -45,14 +46,7 @@
       <header>
         {% if site.logo_url %}
         <a href="{{ '/' | relative_url }}">
-          
-          <img id="logo_url_b" src="{{ site.logo_url2 }}" width="150" height="150">
-        </a>
-        {% endif %}
-        {% if site.logo_url %}
-        <a href="{{ '/' | relative_url }}">
-          
-          <img id="logo_url_a" src="{{ site.logo_url }}" width="!50" height="150">
+          <img id="logo_url_a" src="{{ site.logo_url }}">
         </a>
         {% endif %}
 
