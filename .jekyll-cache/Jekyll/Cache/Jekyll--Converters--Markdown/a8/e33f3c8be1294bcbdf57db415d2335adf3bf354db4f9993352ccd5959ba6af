@@ -1,6 +1,0 @@
-I"�<h2 id="qa-sandbox-info-for-rrdev">QA Sandbox Info for rrdev</h2>
-
-<p>Users can log into the sandbox at https://roadrebel–rrdev.my.salesforce.com by appending .sandbox_name to their Salesforce usernames. For example, if a username for a production organization is user1@acme.com, and the sandbox is named “test”, then the modified username to log into the sandbox is user1@acme.com.test.</p>
-
-<p><a href="./">back</a></p>
-:ET
