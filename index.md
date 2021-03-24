@@ -57,6 +57,13 @@ end
 
 Pivotal Tracker is a straightforward project-planning tool that helps software development teams form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.
 
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
 Pivotal Tracker encourages a practical agile software development process, as pioneered by VMware Pivotal Labs.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)
 
