@@ -5,7 +5,7 @@ git_branch: gh-pages
 logo_url: https://github.com/claytonboss7/githubpages/blob/gh-pages/assets/images/logo.jpg
 google_analytics:
 wiki_folder: wiki
-custom_head: true
+custom_head: false
 custom_sidebar: false
 custom_footer: false
 plugins:
