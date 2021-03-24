@@ -1,4 +1,4 @@
-I"¯<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+I"Ï<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
 
 <p><a href="./another-page.html">Link to another page</a>.</p>
 
@@ -6,18 +6,34 @@
 
 <p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
-<h1 id="header-1">Header 1</h1>
+<h1 id="trace-dashboard">Trace Dashboard</h1>
 
 <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
 
-<h2 id="header-2">Header 2</h2>
+<h2 id="searching-the-dashboard">Searching the Dashboard</h2>
+
+<p>More here.</p>
+
+<h1 id="housing-dashboard">Housing Dashboard</h1>
+
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<h1 id="ground-dashboard">Ground Dashboard</h1>
+
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<h1 id="freight-dashboard">Freight Dashboard</h1>
+
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+
+<h1 id="air-dashboard">Air Dashboard</h1>
 
 <blockquote>
   <p>This is a blockquote following a header.</p>
 
   <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+  <h1 id="accounts">Accounts</h1>
 </blockquote>
 
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
 <h3 id="header-3">Header 3</h3>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
