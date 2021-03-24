@@ -1,8 +1,8 @@
 title: simple-wiki-theme
 description: simple-wiki-theme is a jekyll theme originally based on git-wiki
 show_downloads: true
-git_branch: gh-pages
-logo_url: https://github.com/claytonboss7/githubpages/blob/gh-pages/assets/images/logo.jpg
+git_branch: master
+logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png
 google_analytics:
 wiki_folder: wiki
 custom_head: false
