@@ -1,37 +1,35 @@
-I"g<h1 id="introduction-shipit">Introduction :shipit:</h1>
+I"�<h1 id="introduction-shipit">Introduction :shipit:</h1>
 
 <p><img align="right" width="300" height="300" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" /></p>
-
+<h2 id="purpose">Purpose</h2>
 <ul>
   <li>
-    <h3 id="who">Who?</h3>
-    <p>Developers, Admins, and Power Users would benefit from the information in this Wiki since it pertains to managing the Salesforce day to day Operations and Engineering.</p>
+    <p>Who? 
+ Developers, Admins, and Power Users would benefit from the information in this Wiki since it pertains to managing the Salesforce day to day Operations and Engineering.</p>
   </li>
   <li>
-    <h3 id="what">What?</h3>
-    <p>The Salesforce Platform for Road Rebel, also known as <strong>Voyajer</strong>, is the Community and Sales Cloud solution that runs some of the core processes for Road Rebel and faciliating their client travelers.
+    <p>What?
+The Salesforce Platform for Road Rebel, also known as <strong>Voyajer</strong>, is the Community and Sales Cloud solution that runs some of the core processes for Road Rebel and faciliating their client travelers.
 The system utilizes a <strong>Community</strong> (or “Experience”) with Partner Plus Community Licenses as well as Sales Cloud licenses for internal Coordinators.</p>
   </li>
   <li>
-    <h3 id="where">Where?</h3>
-    <p>Voyajer is a Cloud solution that current only requires a web browser with an internet connection.</p>
+    <p>Where?
+Voyajer is a Cloud solution that current only requires a web browser with an internet connection.</p>
   </li>
   <li>
-    <h3 id="when">When?</h3>
-    <p>The system will be evolving over the next year, but in the interim all information and logic in this wiki should be relevant and maintained.</p>
+    <p>When?
+The system will be evolving over the next year, but in the interim all information and logic in this wiki should be relevant and maintained.</p>
   </li>
   <li>
-    <h3 id="why">Why?</h3>
-  </li>
-  <li>to prevent tribal knowledge,</li>
-  <li>to save hesitancy to ask questions</li>
-  <li>overall empower the team to be able to have a place to find answers.</li>
-  <li>
-    <p>centralizes knowledge for the whole team to absorb.</p>
+    <p>Why?
+** to prevent tribal knowledge, 
+** to save hesitancy to ask questions
+** overall empower the team to be able to have a place to find answers.
+** centralizes knowledge for the whole team to absorb.</p>
   </li>
   <li>
-    <h3 id="how">How?</h3>
-    <p>The wiki will be broken up into core sections which will link to deeper context pages with details and images and video.  The wiki will break down the headers in the markdown to the table of contents, navigation for the wiki.</p>
+    <p>How?
+The wiki will be broken up into core sections which will link to deeper context pages with details and images and video.  The wiki will break down the headers in the markdown to the table of contents, navigation for the wiki.</p>
   </li>
 </ul>
 
