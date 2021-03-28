@@ -3,7 +3,8 @@ layout: default
 MathJax: true
 ---
 # Introduction :shipit:
-`<img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" ALIGN=”right” width="200"/>`
+
+<img align="left" width="100" height="100" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
 
 ### Who? 
 
