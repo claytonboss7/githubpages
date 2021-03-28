@@ -52,20 +52,11 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
-# What is Pivotal Tracker?
+# Pivotal Tracker
 
-Pivotal Tracker is a straightforward project-planning tool that helps software development teams form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.
+## [Click here for the Pivotal Tracker Help Page](./pivotal.md)
 
-| Getting Started        | Writing Stories |
-|:-------------|:------------------|
-| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
-| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
-| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
-| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw)           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wKFkZWAH1vw/0.jpg)](https://www.youtube.com/watch?v=wKFkZWAH1vw) |
+# Trailhead
+## [Image: 2021-03-Trailhead_in_a_box-banner-1200x300-v3.png]
+## [Trailhead Engagement Playbook](./trailhead.md)
 
-**Pivotal Tracker** encourages a practical agile software development process, as pioneered by VMware Pivotal Labs.
-
-# Releases
-## Sprint 1
-## Sprint 2
-## Sprint 3
