@@ -11,13 +11,17 @@ Pivotal Tracker is a Project Management system for tracking Software Development
 
 ## Workflow Diagrams
 
-Stories can be Chores, Features, Or Bugs. The flow is similar with the exception of chores don't have an Accept/Reject stage prior to being Done. This is because chores don't follow the QA process which is the reason Accept/Reject would be used.
+<p>Stories can be Chores, Features, Or Bugs. The flow is similar with the exception of chores don't have an Accept/Reject stage prior to being Done. This is because chores don't follow the QA process which is the reason Accept/Reject would be used.</p>
 
 <img align="left" src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png">
 
 ## Story Statuses
 
 Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. The below diagram has information about each step and intended audience and actions.
+
+<br/>
+<br/>
+<br/>
 
 <img align="right" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png">
 
