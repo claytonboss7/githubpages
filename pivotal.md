@@ -6,7 +6,7 @@ layout: default
 
 # Pivotal Tracker
 
-<img align="right" width="300" height="300" src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png">
+<img align="right" src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png">
 
 Pivotal Tracker is a Project Management system for tracking Software Development.
 
