@@ -7,7 +7,7 @@ MathJax: true
 <img align="right" width="300" height="300" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
 ## Purpose
 - Who? 
--- Developers, Admins, and Power Users would benefit from the information in this Wiki since it pertains to managing the Salesforce day to day Operations and Engineering.
+ - Developers, Admins, and Power Users would benefit from the information in this Wiki since it pertains to managing the Salesforce day to day Operations and Engineering.
 
 * What?
 The Salesforce Platform for Road Rebel, also known as **Voyajer**, is the Community and Sales Cloud solution that runs some of the core processes for Road Rebel and faciliating their client travelers.
