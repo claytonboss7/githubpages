@@ -2,36 +2,25 @@
 layout: default
 ---
 
-## QA Sandbox Info for rrdev
-
-Users can log into the sandbox at https://roadrebel--rrdev.my.salesforce.com by appending .sandbox_name to their Salesforce usernames. For example, if a username for a production organization is user1@acme.com, and the sandbox is named “test”, then the modified username to log into the sandbox is user1@acme.com.test.
-
-For the QA sandbox for example my username would be admin@rr.com.rrdev
-The password for this will be whatever your ccdev password was.
-
-This sandbox will be refreshed after every deployment and has been setup to automatically pull the data it needs to work, like Conga, Community users, etc.
-![alt text](https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/rrdevlogin.jpg "rrdev")
-
-
-
 [back](./)
-###Tracker's workflow
+
+# Tracker's workflow
 The following diagram illustrates Trackers workflow based on story states and Reviews.
 
-Diagram of Trackers workflow
+### Diagram of Trackers workflow
 ![alt text](https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png "pivotal")
 
 In the Getting Started guide, the Workflow overview article walked you through a simple workflow example. Let’s look at a more detailed example to help you tailor Tracker’s workflow to best fit your team’s needs.
 
-A story in the life
-Here’s the life cycle of a typical Tracker story:
+# A story in the life
+## Here’s the life cycle of a typical Tracker story:
 
 The product owner (PO) prioritizes a story in the Backlog. Then puts a “Design” review on it so the story will be queued up in the design team’s “Design” reviews search results.
 A label is added to a story and then appears in a search panel's results when filtering for that label
 
 A designer adds the initial mock-ups to the story and sets their Design review to “Pass”.
-Design Reviews passed
-Design Reviews passed
+* Design Reviews passed
+* Design Reviews passed
 
 The PO and designer meet with a tester and a programmer for a “three amigos”-style discovery workshop , two days in advance of an iteration planning meeting (IPM). They discuss this story, using example mapping to elicit examples of desired behavior, specify rules for the story, and document outstanding questions.
 Documenting story rules, examples of desired behavior, and outstanding questions
