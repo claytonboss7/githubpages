@@ -6,8 +6,12 @@ layout: default
 
 # Pivotal Tracker
 
+<img src="https://www.pivotaltracker.com/help/kb_assets/quick_start_1@1x.png">
 
-Pivotal Tracker is a Project Management system for tracking Software Development.
+## What is Pivotal Tracker?
+Pivotal Tracker is a straightforward **project-planning** tool that helps **software development teams** form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.
+
+Pivotal Tracker encourages a practical **agile software development** process, as pioneered by VMware Pivotal Labs.
 
 ## Workflow Diagrams
 
@@ -17,18 +21,17 @@ Pivotal Tracker is a Project Management system for tracking Software Development
 
 ## Story Statuses
 
-Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. The below diagram has information about each step and intended audience and actions.
-
-<br/>
-<br/>
-<br/>
+- Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. The below diagram has information about each step and intended audience and actions.
 
 <img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png">
 
 ### Statuses Continued
 
-- Unscheduled
-  * All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state. They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. You’ll see a <strong>Start</strong> button on unscheduled stories. Unscheduled stories are always shaded a light blue color.
+- **Unscheduled**
+  * All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state. 
+  * They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. 
+  * You’ll see a <strong>Start</strong> button on unscheduled stories. 
+  * Unscheduled stories are always shaded a light blue color.
 - Unstarted
 - Planned
 - Started

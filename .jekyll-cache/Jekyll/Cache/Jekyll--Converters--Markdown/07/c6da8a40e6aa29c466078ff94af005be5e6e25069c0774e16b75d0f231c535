@@ -1,8 +1,13 @@
-I"p><p><a href="./">back</a></p>
+I"bC<p><a href="./">back</a></p>
 
 <h1 id="pivotal-tracker">Pivotal Tracker</h1>
 
-<p>Pivotal Tracker is a Project Management system for tracking Software Development.</p>
+<p><img src="https://www.pivotaltracker.com/help/kb_assets/quick_start_1@1x.png" /></p>
+
+<h2 id="what-is-pivotal-tracker">What is Pivotal Tracker?</h2>
+<p>Pivotal Tracker is a straightforward <strong>project-planning</strong> tool that helps <strong>software development teams</strong> form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.</p>
+
+<p>Pivotal Tracker encourages a practical <strong>agile software development</strong> process, as pioneered by VMware Pivotal Labs.</p>
 
 <h2 id="workflow-diagrams">Workflow Diagrams</h2>
 
@@ -12,20 +17,21 @@
 
 <h2 id="story-statuses">Story Statuses</h2>
 
-<p>Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. The below diagram has information about each step and intended audience and actions.</p>
-
-<p><br />
-<br />
-<br /></p>
+<ul>
+  <li>Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. The below diagram has information about each step and intended audience and actions.</li>
+</ul>
 
 <p><img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png" /></p>
 
 <h3 id="statuses-continued">Statuses Continued</h3>
 
 <ul>
-  <li>Unscheduled
+  <li><strong>Unscheduled</strong>
     <ul>
-      <li>All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state. They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. You’ll see a <strong>Start</strong> button on unscheduled stories. Unscheduled stories are always shaded a light blue color.</li>
+      <li>All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state.</li>
+      <li>They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>.</li>
+      <li>You’ll see a <strong>Start</strong> button on unscheduled stories.</li>
+      <li>Unscheduled stories are always shaded a light blue color.</li>
     </ul>
   </li>
   <li>Unstarted</li>
