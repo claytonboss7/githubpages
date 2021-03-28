@@ -5,7 +5,8 @@ MathJax: true
 
 # Introduction
 
- ## Who?  
+ ## Who? 
+  
  **Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
  ## What?
  The Salesforce Platform for Road Rebel, also known as **Voyajer**, is the Community and Sales Cloud solution that runs some of the core processes for Road Rebel and faciliating their client travelers.
