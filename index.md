@@ -4,7 +4,8 @@ MathJax: true
 ---
 # Introduction :shipit:
 
-<img align="right" width="300" height="300" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
+<img align="right" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
+
 ## Purpose
 - **Who?** 
   * Developers, Admins, and Power Users would benefit from the information in this Wiki since it pertains to managing the Salesforce day to day Operations and Engineering.
@@ -58,6 +59,11 @@ MathJax: true
 
 [Click here for instructions](./rrdev.html).
 
+## Source Control
+
+### Repository
+### SFDX
+
 ***
 
 # Project Management
@@ -69,6 +75,11 @@ MathJax: true
 # Training
 
 ## [Trailhead Learning](./trailhead.md)
+
+# Troubleshooting
+
+## Conga
+## DBSync
 
 # Releases
 

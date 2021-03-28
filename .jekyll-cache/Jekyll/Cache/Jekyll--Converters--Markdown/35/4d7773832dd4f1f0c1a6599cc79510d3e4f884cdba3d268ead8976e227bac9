@@ -1,6 +1,7 @@
-I"ü<h1 id="introduction-shipit">Introduction :shipit:</h1>
+I"´<h1 id="introduction-shipit">Introduction :shipit:</h1>
 
-<p><img align="right" width="300" height="300" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" /></p>
+<p><img align="right" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" /></p>
+
 <h2 id="purpose">Purpose</h2>
 <ul>
   <li><strong>Who?</strong>
@@ -69,6 +70,11 @@
 
 <p><a href="./rrdev.html">Click here for instructions</a>.</p>
 
+<h2 id="source-control">Source Control</h2>
+
+<h3 id="repository">Repository</h3>
+<h3 id="sfdx">SFDX</h3>
+
 <hr />
 
 <h1 id="project-management">Project Management</h1>
@@ -80,6 +86,11 @@
 <h1 id="training">Training</h1>
 
 <h2 id="trailhead-learning"><a href="./trailhead.md">Trailhead Learning</a></h2>
+
+<h1 id="troubleshooting">Troubleshooting</h1>
+
+<h2 id="conga">Conga</h2>
+<h2 id="dbsync">DBSync</h2>
 
 <h1 id="releases">Releases</h1>
 
