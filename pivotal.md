@@ -21,6 +21,17 @@ Each status in the Tracker workflow has specific Owners and has specific actions
 ![alt text](https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png "storystates")
 
 ### Statuses Continued
+
+- Unscheduled
+  * All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state. They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. You’ll see a <strong>Start</strong> button on unscheduled stories. Unscheduled stories are always shaded a light blue color.
+- Unstarted
+- Planned
+- Started
+- Finished
+- Delivered
+- Rejected 
+- Accepted
+
 <article class="article-content" data-swiftype-name="body" data-swiftype-type="text">
   <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
 
