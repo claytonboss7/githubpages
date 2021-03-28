@@ -22,6 +22,8 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 
 <img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png">
 
+***
+
 ## Story Statuses
 
 - Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. 
@@ -30,6 +32,7 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 
   * <img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png">
 
+***
 ### Statuses Continued
 
 > Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.
@@ -84,6 +87,7 @@ Documenting story rules, examples of desired behavior, and outstanding questions
 
 - The blocking server-side story is accepted, automatically resolving the story’s blocker. When the story is the next unstarted story in the Current panel, a developer pair starts it, which automatically assigns them as story owners. They test drive the code at the unit level, as well as with automated acceptance tests based on the story rules and examples. They explore different searches, such as using regular expressions, and consult with the tester and PO as new questions come up. They click the Finish button, but feel the story needs more exploratory testing, and that they should double-check design implementation, so they add the “Test (QA)” and “Design” Reviews to it. 
 
+*** 
 ### Reviews on stories
 
 - When the CI build for the story’s code passes, the artifacts are automatically deployed to a test environment. The tester verifies this, and clicks the Deliver button. The tester pairs with the designer to verify the look and feel of the search. The designer is satisfied with the results and sets the “Design” review to “Pass”. After more exploratory testing, the tester identifies two minor issues that are outside the scope of the story. They add new stories for these in the “shopping” epic. Satisfied that the story provides the right value for users, the tester sets the “Test (QA)” review to “Pass”, and adds a “Product Owner (PO)” review so that the PO notices the story is ready for them to do final acceptance. Reviews on stories

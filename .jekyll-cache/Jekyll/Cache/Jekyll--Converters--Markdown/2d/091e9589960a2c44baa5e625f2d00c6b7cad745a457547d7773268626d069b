@@ -1,4 +1,4 @@
-I"sO<p><a href="./">back</a></p>
+I"‰O<p><a href="./">back</a></p>
 
 <h1 id="pivotal-tracker">Pivotal Tracker</h1>
 
@@ -23,6 +23,8 @@
 
 <p><img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png" /></p>
 
+<hr />
+
 <h2 id="story-statuses">Story Statuses</h2>
 
 <ul>
@@ -38,6 +40,7 @@
   </li>
 </ul>
 
+<hr />
 <h3 id="statuses-continued">Statuses Continued</h3>
 
 <blockquote>
@@ -134,6 +137,7 @@ Documenting story rules, examples of desired behavior, and outstanding questions
   </li>
 </ul>
 
+<hr />
 <h3 id="reviews-on-stories">Reviews on stories</h3>
 
 <ul>
