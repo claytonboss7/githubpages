@@ -1,4 +1,4 @@
-I"�=<p><a href="./">back</a></p>
+I"T<<p><a href="./">back</a></p>
 
 <h1 id="pivotal-tracker">Pivotal Tracker</h1>
 
@@ -16,18 +16,10 @@
 <img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png" alt="alt text" title="storystates" /></p>
 
 <h3 id="statuses-continued">Statuses Continued</h3>
+<article class="article-content" data-swiftype-name="body" data-swiftype-type="text">
+  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
 
-<p><span data-swiftype-index="true"></span></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;header class="article-header"&gt;
-  &lt;h1 class="article-title"&gt;Story states&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;article class="article-content" data-swiftype-name="body" data-swiftype-type="text"&gt;
-  &lt;p&gt;Tracker stories may be in one of several &lt;a href="../terminology#state"&gt;states&lt;/a&gt;. Valid states for a story depend on the story type and on whether they are in a project with &lt;a href="../automatic_vs_manual_planning"&gt;automatic or manual planning&lt;/a&gt;. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.&lt;/p&gt;
-</code></pre></div></div>
-
-<p><img class="img-bordered" src="/help/kb_assets/story_states_1@1x.png" srcset="/help/kb_assets/story_states_1@1x.png 1x,              /help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
+<p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
 
 <aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p>Story state action buttons will not appear on estimateable stories that have yet to be <a href="../estimating_stories">estimated</a> - estimation buttons will appear instead.</p></div></aside>
 
@@ -83,8 +75,7 @@ Delivered stories have two buttons: <strong>Accept</strong> and <strong>Reject</
 
 <p>For more examples on how states contribute to the workflow, please see <a href="../workflow_overview">Workflow overview</a> on the following page.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/article&gt;
-</code></pre></div></div>
+    </article>
 
 <p>&lt;/span&gt;</p>
 

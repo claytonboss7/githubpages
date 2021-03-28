@@ -20,17 +20,10 @@ Each status in the Tracker workflow has specific Owners and has specific actions
 ![alt text](https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png "storystates")
 
 ### Statuses Continued
+<article class="article-content" data-swiftype-name="body" data-swiftype-type="text">
+  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
 
-  <span data-swiftype-index="true">
-
-    <header class="article-header">
-      <h1 class="article-title">Story states</h1>
-    </header>
-
-    <article class="article-content" data-swiftype-name="body" data-swiftype-type="text">
-      <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
-
-<p><img class="img-bordered" src="/help/kb_assets/story_states_1@1x.png" srcset="/help/kb_assets/story_states_1@1x.png 1x,              /help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
+<p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
 
 <aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p>Story state action buttons will not appear on estimateable stories that have yet to be <a href="../estimating_stories">estimated</a> - estimation buttons will appear instead.</p></div></aside>
 
