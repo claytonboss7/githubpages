@@ -4,6 +4,7 @@ MathJax: true
 ---
 
 # Introduction
+
  ## Who?  
  **Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
  ## What?
@@ -17,9 +18,24 @@ Voyajer is a Cloud solution that current only requires a web browser with an int
 The system will be evolving over the next year, but in the interim all information and logic in this wiki should be relevant and maintained.
 
 ## Why?
-We are in the infnacy of what is sure to be a large complicated solution crossing multiple platforms.  This is supposed to prevent tribal knowledge, hesitancy to ask questions, and overall empower the team to be able to have a place to find answers.  One of the biggest problems with Documentation is maintanence and a central repository for the documents.  This serves that purpose.
-# QA Sandbox
-## [Click here for instructions](./another-page.html).
+- to prevent tribal knowledge, 
+- to save hesitancy to ask questions
+- overall empower the team to be able to have a place to find answers.
+- centralizes knowledge for the whole team to absorb.
+
+## How?
+The wiki will be broken up into core sections which will link to deeper context pages with details and images and video.  The wiki will break down the headers in the markdown to the table of contents, navigation for the wiki.
+
+# Salesforce Documentation
+
+## Technical Documentation
+
+## User Flow Documentation
+## Business Logic References
+# DevOps Documentation
+
+## QA Sandbox
+## [Click here for instructions](./rrdev.html).
 
 # Trace Dashboard
 
