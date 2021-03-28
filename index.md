@@ -2,29 +2,29 @@
 layout: default
 MathJax: true
 ---
-
 # Introduction
 
-## Who? 
+### Who? 
 
-**Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
-## What?
+ **Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
+
+### What?
 The Salesforce Platform for Road Rebel, also known as **Voyajer**, is the Community and Sales Cloud solution that runs some of the core processes for Road Rebel and faciliating their client travelers.
 The system utilizes a **Community** (or "Experience") with Partner Plus Community Licenses as well as Sales Cloud licenses for internal Coordinators.
 
-## Where?
+### Where?
 Voyajer is a Cloud solution that current only requires a web browser with an internet connection.
 
-## When?
+### When?
 The system will be evolving over the next year, but in the interim all information and logic in this wiki should be relevant and maintained.
 
-## Why?
+### Why?
 - to prevent tribal knowledge, 
 - to save hesitancy to ask questions
 - overall empower the team to be able to have a place to find answers.
 - centralizes knowledge for the whole team to absorb.
 
-## How?
+### How?
 The wiki will be broken up into core sections which will link to deeper context pages with details and images and video.  The wiki will break down the headers in the markdown to the table of contents, navigation for the wiki.
 
 # Salesforce Documentation
