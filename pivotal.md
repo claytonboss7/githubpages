@@ -42,74 +42,24 @@ Pivotal Tracker encourages a practical **agile software development** process :w
   * Stories in the <a href="../terminology#backlog">Backlog</a> and <a href="../terminology#current">Current</a> panels that have a <strong>Start</strong> button showing are in the <strong>unstarted</strong> state. 
   * They’re prioritized, but no work is actively being done on them. 
   * Unstarted stories are always shaded a light grey color.
-- ** Planned **
-- Started
-- Finished
-- Delivered
-- Rejected 
-- Accepted
+- **Planned**
+  * If your project settings specify to <a href="../automatic_vs_manual_planning">NOT plan the Current iteration automatically</a>, you can drag any unscheduled or unstarted story into the Current iteration, regardless of project <a href="../understanding_velocity">velocity</a>. Once these unscheduled or unstarted stories are in the Current iteration of a manually planned project, they are in the <strong>planned</strong> state. The team intends to work on them in the Current iteration. They still appear as unstarted stories, with a <strong>Start</strong> button. Planned stories are always shaded a light grey color.
+- **Started**
+  * Once you click the <strong>Start</strong> button for any unscheduled or unstarted story, it will move to the <strong>started</strong> state. You’ll see a <strong>Finish</strong> button in all started stories. When you click the Start button, you will be automatically assigned as a story <a href="../story_owners">owner</a>. Unstarted stories are always shaded a light yellow color.
+- **Finished**
+  * Each team has their own criteria for considering a story “finished”. Tracker was designed with the idea that story owners will click the <strong>Finish</strong> button once they are satisfied that all the necessary development tasks are completed, which may include all testing tasks, and all the code is <a href="../adding_code_commit_comments_to_stories">committed</a> to the source code control system. Your team may have additional criteria, such as completing a code review. You can set up a post-commit hook in your Source Control Management (SCM) system to automatically change the story to the finished state. Finished stories have a <strong>Deliver</strong> button. Finished stories are always shaded a light yellow color.</p>
+- **Delivered**
+  * Tracker’s <strong>delivered</strong> state is intended to denote that the code for the story has been deployed to an environment where it can be acceptance tested. Each team has their own process for this. Typically, there is a build and deploy pipeline which does continuous integration, runs automated regression tests, and does other activities (which may be automated or manual) to check whether the code is ready for testing. You can set up a <a href="../adding_code_commit_comments_to_stories">post-commit hook</a> in your Source Control Management (SCM) system to automatically change the story to delivered state.
+  Delivered stories have two buttons: <strong>Accept</strong> and <strong>Reject</strong>. Delivered stories are always shaded a light yellow color.
+- **Rejected**
+  * When you discover an issue with a delivered story and need to do more work on it, you can click the <strong>Reject</strong> button to send it back to the queue of work in the Current iteration. When you click the reject button without first expanding a story, you’ll get a popup window where you can add a comment describing what additional work is needed. Rejected stories have a <strong>Restart</strong> button. Clicking the restart button puts the story into the <strong>started</strong> state. Rejected stories are always shaded a light yellow color.
+- **Accepted**
+  * Each team has their own <a href="https://www.agilealliance.org/glossary/definition-of-done/">definition of done</a> with criteria for accepting a story. It may involve having multiple people such as testers, designers, and product owners agreeing that the story is ready to accept. Tracker is designed with the assumption that clicking the <strong>Accept</strong> button means the story is ready to deploy to production. However, more steps are usually needed in the team’s deploy pipeline before the story’s code is actually released to production. You can use <a href="../organizing_releases">release type stories</a> to denote when a group of stories has been deployed to production by clicking the <strong>Finish</strong> button on the release story after the deploy occurs.</p>
 
 
-
-<p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
-
-<aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p>Story state action buttons will not appear on estimateable stories that have yet to be <a href="../estimating_stories">estimated</a> - estimation buttons will appear instead.</p></div></aside>
-
-<h2 id="state-descriptions">State descriptions</h2>
-<p><a name="unscheduled"></a></p>
-
-- <h3 id="unscheduled">Unscheduled</h3>
-
-  * <p>All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state. They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. You’ll see a <strong>Start</strong> button on unscheduled stories. Unscheduled stories are always shaded a light blue color.
-  <a name="unstarted"></a></p>
-
-- <h3 id="unstarted">Unstarted</h3>
-
-  * <p>Stories in the <a href="../terminology#backlog">Backlog</a> and <a href="../terminology#current">Current</a> panels that have a <strong>Start</strong> button showing are in the <strong>unstarted</strong> state. They’re prioritized, but no work is actively being done on them. Unstarted stories are always shaded a light grey color.
-  <a name="planned"></a></p>  
-
-<h3 id="planned">Planned</h3>
-
-<p>If your project settings specify to <a href="../automatic_vs_manual_planning">NOT plan the Current iteration automatically</a>, you can drag any unscheduled or unstarted story into the Current iteration, regardless of project <a href="../understanding_velocity">velocity</a>. Once these unscheduled or unstarted stories are in the Current iteration of a manually planned project, they are in the <strong>planned</strong> state. The team intends to work on them in the Current iteration. They still appear as unstarted stories, with a <strong>Start</strong> button. Planned stories are always shaded a light grey color.
-<a name="started"></a></p>
-
-<h3 id="started">Started</h3>
-
-<p>Once you click the <strong>Start</strong> button for any unscheduled or unstarted story, it will move to the <strong>started</strong> state. You’ll see a <strong>Finish</strong> button in all started stories. When you click the Start button, you will be automatically assigned as a story <a href="../story_owners">owner</a>. Unstarted stories are always shaded a light yellow color.</p>
-
-<aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p><a href="../organizing_releases">Release type stories</a> do not have a started state. They remain in unscheduled, unstarted or planned state until you click the Finish button, then they change immediately to the <strong>finished</strong> state. They serve as milestones only, so they don’t need more states.</p></div></aside>
-<p><a name="finished"></a></p>
-
-<h3 id="finished">Finished</h3>
-
-<p>Each team has their own criteria for considering a story “finished”. Tracker was designed with the idea that story owners will click the <strong>Finish</strong> button once they are satisfied that all the necessary development tasks are completed, which may include all testing tasks, and all the code is <a href="../adding_code_commit_comments_to_stories">committed</a> to the source code control system. Your team may have additional criteria, such as completing a code review. You can set up a post-commit hook in your Source Control Management (SCM) system to automatically change the story to the finished state. Finished stories have a <strong>Deliver</strong> button. Finished stories are always shaded a light yellow color.</p>
-
-<aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p>Chores don’t have a finished state. They change to <strong>accepted</strong> <a href="../terminology#state">state</a> as soon as you click the Finish button. Tracker assumes that your team will not do acceptance testing on chore type stories.</p></div></aside>
-
-<p><a name="delivered"></a></p>
-
-<h3 id="delivered">Delivered</h3>
-
-<p>Tracker’s <strong>delivered</strong> state is intended to denote that the code for the story has been deployed to an environment where it can be acceptance tested. Each team has their own process for this. Typically, there is a build and deploy pipeline which does continuous integration, runs automated regression tests, and does other activities (which may be automated or manual) to check whether the code is ready for testing. You can set up a <a href="../adding_code_commit_comments_to_stories">post-commit hook</a> in your Source Control Management (SCM) system to automatically change the story to delivered state.
-Delivered stories have two buttons: <strong>Accept</strong> and <strong>Reject</strong>. Delivered stories are always shaded a light yellow color.
-<a name="rejected"></a></p>
-
-<h3 id="rejected">Rejected</h3>
-
-<p>When you discover an issue with a delivered story and need to do more work on it, you can click the <strong>Reject</strong> button to send it back to the queue of work in the Current iteration. When you click the reject button without first expanding a story, you’ll get a popup window where you can add a comment describing what additional work is needed. Rejected stories have a <strong>Restart</strong> button. Clicking the restart button puts the story into the <strong>started</strong> state. Rejected stories are always shaded a light yellow color.
-<a name="accepted"></a></p>
-
-<h3 id="accepted">Accepted</h3>
-
-<p>Each team has their own <a href="https://www.agilealliance.org/glossary/definition-of-done/">definition of done</a> with criteria for accepting a story. It may involve having multiple people such as testers, designers, and product owners agreeing that the story is ready to accept. Tracker is designed with the assumption that clicking the <strong>Accept</strong> button means the story is ready to deploy to production. However, more steps are usually needed in the team’s deploy pipeline before the story’s code is actually released to production. You can use <a href="../organizing_releases">release type stories</a> to denote when a group of stories has been deployed to production by clicking the <strong>Finish</strong> button on the release story after the deploy occurs.</p>
-
-<p>Accepted stories turn green and move to the top of the Current iteration. You can click <strong>Hide accepted stories</strong> at the top of the panel if you’d rather not see them. When a new iteration begins, the accepted stories are moved to the Done panel. Stories in other states in the Current iteration will remain.</p>
-
-<p>For more examples on how states contribute to the workflow, please see <a href="../workflow_overview">Workflow overview</a> on the following page.</p>
-
-    </article>
-
-  </span>
+> Accepted stories turn green and move to the top of the Current iteration. You can click <strong>Hide accepted stories</strong> at the top of the panel if you’d rather not see them. 
+> When a new iteration begins, the accepted stories are moved to the Done panel. Stories in other states in the Current iteration will remain.</p>
+> > For more examples on how states contribute to the workflow, please see <a href="../workflow_overview">Workflow overview</a> on the following page.</p>
 
 # A story in the life
 
