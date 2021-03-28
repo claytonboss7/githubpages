@@ -1,92 +1,13 @@
-<!doctype html>
-<html>
-  <head>
-    
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>documentation for the voyajer app and its implementation in Salesforce.com | voyajer-sf-wiki by </title>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="assets/css/style.css?v=">
-    <script src="assets/js/wiki-features.js"></script>
-
-    
-
-    
-
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>voyajer-sf-wiki | documentation for the voyajer app and its implementation in Salesforce.com</title>
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="voyajer-sf-wiki" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="documentation for the voyajer app and its implementation in Salesforce.com" />
-<meta property="og:description" content="documentation for the voyajer app and its implementation in Salesforce.com" />
-<meta property="og:site_name" content="voyajer-sf-wiki" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="voyajer-sf-wiki" />
-<script type="application/ld+json">
-{"url":"/pivotal.html","headline":"voyajer-sf-wiki","description":"documentation for the voyajer app and its implementation in Salesforce.com","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-  <body>
-    <div id="titleBar">
-      <div id="titleLeft">
-        <a class="mainPagelink" href="/">
-          <h1>voyajer-sf-wiki</h1>
-        </a>
-        <p id="titleDescription">documentation for the voyajer app and its implementation in Salesforce.com</p>
-      </div>
-    </div>
-
-    <div class="wrapper" id="mainContents">
-      <header>
-        
-        <br>
-        <a href="/">
-          <img id="logo_url_a" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Wiki-black.png" height="200" width="200">
-        </a>
-        <br>
-        <a href="/">
-          <img id="logo_url_b" src="https://www.crew-united.com/Media/Images/1000/1000632/1000632.big.jpg" height="200" width="200">
-        </a>
-        
-
-        
-
-        
-
-        <div class="tocTitle">Table of Contents</div>
-        <div id="toc"></div>
-        
-      </header>
-      <div class="mainTitle">
-        <p class="postedOn">Posted on 2021-03-28</p>
-        <h1>voyajer-sf-wiki</h1>
-        <p class="subTitle">documentation for the voyajer app and its implementation in Salesforce.com</p>
-        
-      </div>
-      <section>
-        <div id="content">
-          <p><a href="./">back</a></p>
+I"�U<p><a href="./">back</a></p>
 
 <h1 id="pivotal-tracker">Pivotal Tracker</h1>
 
-<p><img src="https://www.pivotaltracker.com/help/kb_assets/quick_start_1@1x.png"></p>
+<p><img src="https://www.pivotaltracker.com/help/kb_assets/quick_start_1@1x.png" /></p>
 
 <h2 id="what-is-pivotal-tracker">What is Pivotal Tracker?</h2>
 <p>Pivotal Tracker is a straightforward <strong>project-planning</strong> tool that helps <strong>software development teams</strong> form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.</p>
 
-<p>Pivotal Tracker encourages a practical <strong>agile software development</strong> process <img class="emoji" title=":white_check_mark:" alt=":white_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png" height="20" width="20">, as pioneered by VMware Pivotal Labs.</p>
+<p>Pivotal Tracker encourages a practical <strong>agile software development</strong> process :white_check_mark:, as pioneered by VMware Pivotal Labs.</p>
 
 <h2 id="story-workflow-diagrams">Story Workflow Diagrams</h2>
 
@@ -99,7 +20,7 @@
   </li>
 </ul>
 
-<p><img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png"></p>
+<p><img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png" /></p>
 
 <h2 id="story-statuses">Story Statuses</h2>
 
@@ -111,7 +32,7 @@
     <p>The below diagram has information about each step and intended audience and actions.</p>
 
     <ul>
-      <li><img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png"></li>
+      <li><img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png" /></li>
     </ul>
   </li>
 </ul>
@@ -119,12 +40,11 @@
 <h3 id="statuses-continued">Statuses Continued</h3>
 
 <blockquote>
-  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../%20%20%20%20%20automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
+  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
 </blockquote>
 
 <ul>
-  <li>
-<strong>Unscheduled</strong>
+  <li><strong>Unscheduled</strong>
     <ul>
       <li>All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state.</li>
       <li>They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>.</li>
@@ -132,8 +52,7 @@
       <li>Unscheduled stories are always shaded a light blue color.</li>
     </ul>
   </li>
-  <li>
-<strong>Unstarted</strong>
+  <li><strong>Unstarted</strong>
     <ul>
       <li>Stories in the <a href="../terminology#backlog">Backlog</a> and <a href="../terminology#current">Current</a> panels that have a <strong>Start</strong> button showing are in the <strong>unstarted</strong> state.</li>
       <li>They’re prioritized, but no work is actively being done on them.</li>
@@ -148,12 +67,9 @@
   <li>Accepted</li>
 </ul>
 
-<p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow"></p>
+<p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
 
-<aside class="note"><div class="icon"> </div>
-<div class="text">
-<strong>Note</strong>: <p>Story state action buttons will not appear on estimateable stories that have yet to be <a href="../estimating_stories">estimated</a> - estimation buttons will appear instead.</p>
-</div></aside>
+<aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p>Story state action buttons will not appear on estimateable stories that have yet to be <a href="../estimating_stories">estimated</a> - estimation buttons will appear instead.</p></div></aside>
 
 <h2 id="state-descriptions">State descriptions</h2>
 <p><a name="unscheduled"></a></p>
@@ -190,20 +106,14 @@
 
 <p>Once you click the <strong>Start</strong> button for any unscheduled or unstarted story, it will move to the <strong>started</strong> state. You’ll see a <strong>Finish</strong> button in all started stories. When you click the Start button, you will be automatically assigned as a story <a href="../story_owners">owner</a>. Unstarted stories are always shaded a light yellow color.</p>
 
-<aside class="note"><div class="icon"> </div>
-<div class="text">
-<strong>Note</strong>: <p><a href="../organizing_releases">Release type stories</a> do not have a started state. They remain in unscheduled, unstarted or planned state until you click the Finish button, then they change immediately to the <strong>finished</strong> state. They serve as milestones only, so they don’t need more states.</p>
-</div></aside>
+<aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p><a href="../organizing_releases">Release type stories</a> do not have a started state. They remain in unscheduled, unstarted or planned state until you click the Finish button, then they change immediately to the <strong>finished</strong> state. They serve as milestones only, so they don’t need more states.</p></div></aside>
 <p><a name="finished"></a></p>
 
 <h3 id="finished">Finished</h3>
 
 <p>Each team has their own criteria for considering a story “finished”. Tracker was designed with the idea that story owners will click the <strong>Finish</strong> button once they are satisfied that all the necessary development tasks are completed, which may include all testing tasks, and all the code is <a href="../adding_code_commit_comments_to_stories">committed</a> to the source code control system. Your team may have additional criteria, such as completing a code review. You can set up a post-commit hook in your Source Control Management (SCM) system to automatically change the story to the finished state. Finished stories have a <strong>Deliver</strong> button. Finished stories are always shaded a light yellow color.</p>
 
-<aside class="note"><div class="icon"> </div>
-<div class="text">
-<strong>Note</strong>: <p>Chores don’t have a finished state. They change to <strong>accepted</strong> <a href="../terminology#state">state</a> as soon as you click the Finish button. Tracker assumes that your team will not do acceptance testing on chore type stories.</p>
-</div></aside>
+<aside class="note"><div class="icon"> </div><div class="text"><strong>Note</strong>: <p>Chores don’t have a finished state. They change to <strong>accepted</strong> <a href="../terminology#state">state</a> as soon as you click the Finish button. Tracker assumes that your team will not do acceptance testing on chore type stories.</p></div></aside>
 
 <p><a name="delivered"></a></p>
 
@@ -295,7 +205,7 @@ Chores are stories that are necessary but provide no direct, obvious value to th
   <div class="video-item">
     <a id="getting_started" href="https://www.youtube-nocookie.com/watch?v=wKFkZWAH1vw" class="video-item__video" data-lity="">
       <img class="" src="/help/kb_assets/getting_started@1x.png" srcset="/help/kb_assets/getting_started@1x.png 1x,
-             https://www.pivotaltracker.com/help/kb_assets/getting_started@2x.png 2x" alt="&amp;#39Getting Started&amp;#39 video">
+             https://www.pivotaltracker.com/help/kb_assets/getting_started@2x.png 2x" alt="&amp;#39Getting Started&amp;#39 video" />
 
     </a>
 
@@ -305,7 +215,7 @@ Chores are stories that are necessary but provide no direct, obvious value to th
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=grFxyiJpjuU" class="video-item__video" data-lity="">
       <img class="" src="/help/kb_assets/writing_stories@1x.png" srcset="/help/kb_assets/writing_stories@1x.png 1x,
-             https://www.pivotaltracker.com/help/kb_assets/writing_stories@2x.png 2x" alt="&amp;#39Writing Stories&amp;#39 video">
+             https://www.pivotaltracker.com/help/kb_assets/writing_stories@2x.png 2x" alt="&amp;#39Writing Stories&amp;#39 video" />
 
     </a>
 
@@ -317,7 +227,7 @@ Chores are stories that are necessary but provide no direct, obvious value to th
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=v5y5Bt6MilI" class="video-item__video" data-lity="">
       <img class="" src="/help/kb_assets/prioritizing@1x.png" srcset="/help/kb_assets/prioritizing@1x.png 1x,
-             https://www.pivotaltracker.com/help/kb_assets/prioritizing@2x.png 2x" alt="&amp;#39Prioritizing and Estimating Complexity&amp;#39 video">
+             https://www.pivotaltracker.com/help/kb_assets/prioritizing@2x.png 2x" alt="&amp;#39Prioritizing and Estimating Complexity&amp;#39 video" />
 
     </a>
 
@@ -327,7 +237,7 @@ Chores are stories that are necessary but provide no direct, obvious value to th
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=nvXEGWC50rc" class="video-item__video" data-lity="">
       <img class="" src="/help/kb_assets/delivering_stories@1x.png" srcset="/help/kb_assets/delivering_stories@1x.png 1x,
-             https://www.pivotaltracker.com/help/kb_assets/delivering_stories@2x.png 2x" alt="'Delivering Stories' video">
+             https://www.pivotaltracker.com/help/kb_assets/delivering_stories@2x.png 2x" alt="&#39;Delivering Stories&#39; video" />
 
     </a>
 
@@ -339,7 +249,7 @@ Chores are stories that are necessary but provide no direct, obvious value to th
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=gOmfnWj7cK8" class="video-item__video" data-lity="">
       <img class="" src="/help/kb_assets/velocity@1x.png" srcset="/help/kb_assets/velocity@1x.png 1x,
-             https://www.pivotaltracker.com/help/kb_assets/velocity@2x.png 2x" alt="&amp;#39Velocity and Story Acceptance&amp;#39 video">
+             https://www.pivotaltracker.com/help/kb_assets/velocity@2x.png 2x" alt="&amp;#39Velocity and Story Acceptance&amp;#39 video" />
 
     </a>
 
@@ -349,45 +259,11 @@ Chores are stories that are necessary but provide no direct, obvious value to th
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/T-w_GUTtO9I?rel=0" class="video-item__video" data-lity="">
       <img class="img-bordered" src="/help/kb_assets/tracker_webinar@1x.png" srcset="/help/kb_assets/tracker_webinar@1x.png 1x,
-             https://www.pivotaltracker.com/help/kb_assets/tracker_webinar@2x.png 2x" alt="'Intro to Tracker Webinar' video">
+             https://www.pivotaltracker.com/help/kb_assets/tracker_webinar@2x.png 2x" alt="&#39;Intro to Tracker Webinar&#39; video" />
 
     </a>
 
     <h3> Intro to Tracker webinar (64:12) </h3> One of our recent webinars, with a tour of Tracker and some great Q&amp;A!
   </div>
 </div>
-
-        </div>
-          
-        
-
-      </section>
-      <footer>
-        
-
-        
-        
-      </footer>
-    </div>
-    <script src="assets/js/scale.fix.js"></script>
-
-    
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#toc').toc({
-              noBackToTopLinks: true,
-              title: '',
-              minimumHeaders: 1,
-              headers: 'section h1, section h2, section h3, section h4, section h5, section h6',
-              listType: 'ul',
-              showEffect: 'none',
-              classes: {list: 'tocList',
-                        item: 'tocItem'}
-            });
-        });
-    </script>
-
-    <script src="assets/js/script.js"></script>
-  </body>
-</html>
+:ET
