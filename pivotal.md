@@ -122,7 +122,7 @@ Releases are milestone markers that allow your team to track progress toward con
 <div class="video-group">
   <div class="video-item">
     <a id="getting_started" href="https://www.youtube-nocookie.com/watch?v=wKFkZWAH1vw" class="video-item__video" data-lity="">
-      <img class="" src="/help/kb_assets/getting_started@1x.png" srcset="/help/kb_assets/getting_started@1x.png 1x,
+      <img class="" src="https://www.pivotaltracker.com/help/kb_assets/getting_started@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/getting_started@1x.png 1x,
              https://www.pivotaltracker.com/help/kb_assets/getting_started@2x.png 2x" alt="&amp;#39Getting Started&amp;#39 video" />
 
     </a>
@@ -132,7 +132,7 @@ Releases are milestone markers that allow your team to track progress toward con
 
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=grFxyiJpjuU" class="video-item__video" data-lity="">
-      <img class="" src="/help/kb_assets/writing_stories@1x.png" srcset="/help/kb_assets/writing_stories@1x.png 1x,
+      <img class="" src="https://www.pivotaltracker.com/help/kb_assets/writing_stories@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/writing_stories@1x.png 1x,
              https://www.pivotaltracker.com/help/kb_assets/writing_stories@2x.png 2x" alt="&amp;#39Writing Stories&amp;#39 video" />
 
     </a>
@@ -144,7 +144,7 @@ Releases are milestone markers that allow your team to track progress toward con
 <div class="video-group">
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=v5y5Bt6MilI" class="video-item__video" data-lity="">
-      <img class="" src="/help/kb_assets/prioritizing@1x.png" srcset="/help/kb_assets/prioritizing@1x.png 1x,
+      <img class="" src="https://www.pivotaltracker.com/help/kb_assets/prioritizing@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/prioritizing@1x.png 1x,
              https://www.pivotaltracker.com/help/kb_assets/prioritizing@2x.png 2x" alt="&amp;#39Prioritizing and Estimating Complexity&amp;#39 video" />
 
     </a>
@@ -154,7 +154,7 @@ Releases are milestone markers that allow your team to track progress toward con
 
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=nvXEGWC50rc" class="video-item__video" data-lity="">
-      <img class="" src="/help/kb_assets/delivering_stories@1x.png" srcset="/help/kb_assets/delivering_stories@1x.png 1x,
+      <img class="" src="https://www.pivotaltracker.com/help/kb_assets/delivering_stories@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/delivering_stories@1x.png 1x,
              https://www.pivotaltracker.com/help/kb_assets/delivering_stories@2x.png 2x" alt="&#39;Delivering Stories&#39; video" />
 
     </a>
@@ -166,7 +166,7 @@ Releases are milestone markers that allow your team to track progress toward con
 <div class="video-group">
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/watch?v=gOmfnWj7cK8" class="video-item__video" data-lity="">
-      <img class="" src="/help/kb_assets/velocity@1x.png" srcset="/help/kb_assets/velocity@1x.png 1x,
+      <img class="" src="https://www.pivotaltracker.com/help/kb_assets/velocity@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/velocity@1x.png 1x,
              https://www.pivotaltracker.com/help/kb_assets/velocity@2x.png 2x" alt="&amp;#39Velocity and Story Acceptance&amp;#39 video" />
 
     </a>
@@ -176,7 +176,7 @@ Releases are milestone markers that allow your team to track progress toward con
 
   <div class="video-item">
     <a href="https://www.youtube-nocookie.com/T-w_GUTtO9I?rel=0" class="video-item__video" data-lity="">
-      <img class="img-bordered" src="/help/kb_assets/tracker_webinar@1x.png" srcset="/help/kb_assets/tracker_webinar@1x.png 1x,
+      <img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/tracker_webinar@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/tracker_webinar@1x.png 1x,
              https://www.pivotaltracker.com/help/kb_assets/tracker_webinar@2x.png 2x" alt="&#39;Intro to Tracker Webinar&#39; video" />
 
     </a>
