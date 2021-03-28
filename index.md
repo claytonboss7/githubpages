@@ -3,7 +3,7 @@ layout: default
 MathJax: true
 ---
 # Introduction
-<img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" width="200"/>
+<img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" ALIGN=”right” width="200"/>
 
 ### Who? 
 
