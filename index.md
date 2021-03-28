@@ -3,6 +3,7 @@ layout: default
 MathJax: true
 ---
 # Introduction
+![alt text](https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png "rrdev")
 
 ### Who? 
 
