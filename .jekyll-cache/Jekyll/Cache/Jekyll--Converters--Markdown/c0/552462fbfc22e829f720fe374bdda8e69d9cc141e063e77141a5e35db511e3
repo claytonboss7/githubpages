@@ -1,7 +1,19 @@
-I"D<p><strong>Road Rebel</strong> facilitates travel and hotels for Entertainment Productions by having a marketplace for <strong>Vendors</strong> to bid on things available that the <strong>Customers</strong> would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.</p>
+I"J<h1 id="introduction">Introduction</h1>
 
-<p>The system utilizes a Community with Partner Plus Community Licenses as well as Sales Cloud licenses for internal Coordinators.</p>
+<p>## Who? 
+ <strong>Road Rebel</strong> facilitates travel and hotels for Entertainment Productions by having a marketplace for <strong>Vendors</strong> to bid on things available that the <strong>Customers</strong> would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
+ ## What?
+ The Salesforce Platform for Road Rebel, also known as <strong>Voyajer</strong>, is the Community and Sales Cloud solution that runs some of the core processes for Road Rebel and faciliating their client travelers.
+  The system utilizes a <strong>Community</strong> (or “Experience”) with Partner Plus Community Licenses as well as Sales Cloud licenses for internal Coordinators.</p>
 
+<h2 id="where">Where?</h2>
+<p>Voyajer is a Cloud solution that current only requires a web browser with an internet connection.</p>
+
+<h2 id="when">When?</h2>
+<p>The system will be evolving over the next year, but in the interim all information and logic in this wiki should be relevant and maintained.</p>
+
+<h2 id="why">Why?</h2>
+<p>We are in the infnacy of what is sure to be a large complicated solution crossing multiple platforms.  This is supposed to prevent tribal knowledge, hesitancy to ask questions, and overall empower the team to be able to have a place to find answers.  One of the biggest problems with Documentation is maintanence and a central repository for the documents.  This serves that purpose.</p>
 <h1 id="qa-sandbox">QA Sandbox</h1>
 <h2 id="click-here-for-instructions"><a href="./another-page.html">Click here for instructions</a>.</h2>
 
