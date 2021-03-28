@@ -4,10 +4,9 @@ MathJax: true
 ---
 # Introduction :shipit:
 
-<img align="left" width="100" height="100" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
+<img align="left" width="300" height="300" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
 
-### Who? 
-
+* ### Who? 
  **Road Rebel** facilitates travel and hotels for Entertainment Productions by having a marketplace for **Vendors** to bid on things available that the **Customers** would have selected from the options RR Provided them.  They use SF Communities for a Vendor and Client experience, and SF internal users will use dashboards created with custom code.
 
 ### What?
