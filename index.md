@@ -2,7 +2,7 @@
 layout: default
 MathJax: true
 ---
-# Introduction
+# Introduction :shipit:
 <img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" ALIGN=”right” width="200"/>
 
 ### Who? 
