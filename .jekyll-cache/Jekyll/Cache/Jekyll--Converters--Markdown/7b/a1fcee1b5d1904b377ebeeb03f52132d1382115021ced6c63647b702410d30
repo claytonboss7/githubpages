@@ -1,4 +1,4 @@
-I"<T<p><a href="./">back</a></p>
+I"V<p><a href="./">back</a></p>
 
 <h1 id="pivotal-tracker">Pivotal Tracker</h1>
 
@@ -7,7 +7,7 @@
 <h2 id="what-is-pivotal-tracker">What is Pivotal Tracker?</h2>
 <p>Pivotal Tracker is a straightforward <strong>project-planning</strong> tool that helps <strong>software development teams</strong> form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.</p>
 
-<p>Pivotal Tracker encourages a practical <strong>agile software development</strong> process, as pioneered by VMware Pivotal Labs.</p>
+<p>Pivotal Tracker encourages a practical <strong>agile software development</strong> process :white_check_mark:, as pioneered by VMware Pivotal Labs.</p>
 
 <h2 id="story-workflow-diagrams">Story Workflow Diagrams</h2>
 
@@ -39,6 +39,10 @@
 
 <h3 id="statuses-continued">Statuses Continued</h3>
 
+<blockquote>
+  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
+</blockquote>
+
 <ul>
   <li><strong>Unscheduled</strong>
     <ul>
@@ -55,7 +59,7 @@
       <li>Unstarted stories are always shaded a light grey color.</li>
     </ul>
   </li>
-  <li>Planned</li>
+  <li>** Planned **</li>
   <li>Started</li>
   <li>Finished</li>
   <li>Delivered</li>
@@ -64,7 +68,7 @@
 </ul>
 
 <article class="article-content" data-swiftype-name="body" data-swiftype-type="text">
-  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
+  <p>&gt; Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
 
 <p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
 

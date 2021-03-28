@@ -11,7 +11,7 @@ layout: default
 ## What is Pivotal Tracker?
 Pivotal Tracker is a straightforward **project-planning** tool that helps **software development teams** form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.
 
-Pivotal Tracker encourages a practical **agile software development** process, as pioneered by VMware Pivotal Labs.
+Pivotal Tracker encourages a practical **agile software development** process :white_check_mark:, as pioneered by VMware Pivotal Labs.
 
 ## Story Workflow Diagrams
 
@@ -31,6 +31,8 @@ Pivotal Tracker encourages a practical **agile software development** process, a
 
 ### Statuses Continued
 
+> Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.
+
 - **Unscheduled**
   * All stories in a project’s <a href="../managing_the_Icebox">Icebox</a> are in the <strong>unscheduled</strong> state. 
   * They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. 
@@ -40,7 +42,7 @@ Pivotal Tracker encourages a practical **agile software development** process, a
   * Stories in the <a href="../terminology#backlog">Backlog</a> and <a href="../terminology#current">Current</a> panels that have a <strong>Start</strong> button showing are in the <strong>unstarted</strong> state. 
   * They’re prioritized, but no work is actively being done on them. 
   * Unstarted stories are always shaded a light grey color.
-- Planned
+- ** Planned **
 - Started
 - Finished
 - Delivered
@@ -48,7 +50,7 @@ Pivotal Tracker encourages a practical **agile software development** process, a
 - Accepted
 
 <article class="article-content" data-swiftype-name="body" data-swiftype-type="text">
-  <p>Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
+  <p>> Tracker stories may be in one of several <a href="../terminology#state">states</a>. Valid states for a story depend on the story type and on whether they are in a project with <a href="../     automatic_vs_manual_planning">automatic or manual planning</a>. The following diagram illustrates how Tracker’s workflow progresses as you click through the state buttons located on a story.</p>
 
 <p><img class="img-bordered" src="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png" srcset="https://www.pivotaltracker.com/help/kb_assets/story_states_1@1x.png 1x,              /https://www.pivotaltracker.com/help/kb_assets/help/kb_assets/story_states_1@2x.png 2x" alt="Diagram of Trackers workflow" /></p>
 
