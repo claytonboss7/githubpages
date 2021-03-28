@@ -1,92 +1,17 @@
-<!doctype html>
-<html>
-  <head>
-    
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>documentation for the voyajer app and its implementation in Salesforce.com | voyajer-sf-wiki by </title>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="assets/css/style.css?v=">
-    <script src="assets/js/wiki-features.js"></script>
-
-    
-
-    
-
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>voyajer-sf-wiki | documentation for the voyajer app and its implementation in Salesforce.com</title>
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="voyajer-sf-wiki" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="documentation for the voyajer app and its implementation in Salesforce.com" />
-<meta property="og:description" content="documentation for the voyajer app and its implementation in Salesforce.com" />
-<meta property="og:site_name" content="voyajer-sf-wiki" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="voyajer-sf-wiki" />
-<script type="application/ld+json">
-{"url":"/pivotal.html","headline":"voyajer-sf-wiki","description":"documentation for the voyajer app and its implementation in Salesforce.com","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-  <body>
-    <div id="titleBar">
-      <div id="titleLeft">
-        <a class="mainPagelink" href="/">
-          <h1>voyajer-sf-wiki</h1>
-        </a>
-        <p id="titleDescription">documentation for the voyajer app and its implementation in Salesforce.com</p>
-      </div>
-    </div>
-
-    <div class="wrapper" id="mainContents">
-      <header>
-        
-        <br/>
-        <a href="/">
-          <img id="logo_url_a" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Wiki-black.png" height="200" width="200">
-        </a>
-        <br/>
-        <a href="/">
-          <img id="logo_url_b" src="https://www.crew-united.com/Media/Images/1000/1000632/1000632.big.jpg" height="200" width="200">
-        </a>
-        
-
-        
-
-        
-
-        <div class="tocTitle">Table of Contents</div>
-        <div id="toc"></div>
-        
-      </header>
-      <div class="mainTitle">
-        <p class="postedOn">Posted on 2021-03-28</p>
-        <h1>voyajer-sf-wiki</h1>
-        <p class="subTitle">documentation for the voyajer app and its implementation in Salesforce.com</p>
-        
-      </div>
-      <section>
-        <div id="content">
-          <p><a href="./">back</a></p>
+I"�<p><a href="./">back</a></p>
 <h1 id="pivotal-tracker">Pivotal Tracker</h1>
-<p>Pivotal Tracker is a Project Management system for tracking Software Development.</p>
-<h2 id="workflow-diagrams">Workflow Diagrams</h2>
-<p>Stories can be Chores, Features, Or Bugs.  The flow is similar with the exception of chores don’t have an Accept/Reject stage prior to being Done.   This is because chores don’t follow the QA process which is the reason Accept/Reject would be used.
-<img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png" alt="alt text" title="pivotal" /></p>
+<p>Stories can be Chores, Features, Or Bugs.  The flow is similar with the exception of chores don’t have an Accept/Reject stage prior to being Done.   This is because chores don’t follow the QA process which is the reason Accept/Reject would be used.</p>
 
-<h2 id="story-statuses">Story Statuses</h2>
-<p>Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow.  The below diagram has information about each step and intended audience and actions.
+<p><img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png" alt="alt text" title="pivotal" />
 <img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png" alt="alt text" title="storystates" /></p>
+
+<h1 id="story-and-status-workflow">Story and Status Workflow</h1>
+<p>The following diagram illustrates Trackers workflow based on story states and Reviews.</p>
+
+<h3 id="diagram-of-trackers-workflow">Diagram of Trackers workflow</h3>
+<p><img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png" alt="alt text" title="pivotal" /></p>
+
+<p>In the Getting Started guide, the Workflow overview article walked you through a simple workflow example. Let’s look at a more detailed example to help you tailor Tracker’s workflow to best fit your team’s needs.</p>
 
 <h1 id="a-story-in-the-life">A story in the life</h1>
 <h2 id="heres-the-life-cycle-of-a-typical-example-tracker-story-non-road-rebel">Here’s the life cycle of a typical Example Tracker story (non Road Rebel):</h2>
@@ -138,38 +63,4 @@ As noted in the Getting Started article on Tracker’s workflow, bug stories fol
 Chores are stories that are necessary but provide no direct, obvious value to the customer (e.g., “Update SSL Certs”). Because they don’t typically require extra validation when they’re finished, the states for chores are just unscheduled (when in the Icebox), unstarted, started, and accepted.</p>
 
 <p>Releases are milestone markers that allow your team to track progress toward concrete goals (e.g., stakeholder or investor demos, software launches, etc.). It’s possible to specify target dates for releases. All stories for a milestone or release should go above the marker for it. Releases are automatically placed in the started state upon being created or dragged in the Backlog, and also have the unscheduled (when in the Icebox) and accepted states. For more please see Organizing releases.</p>
-
-        </div>
-          
-        
-
-      </section>
-      <footer>
-        
-
-        
-        
-      </footer>
-    </div>
-    <script src="assets/js/scale.fix.js"></script>
-
-    
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#toc').toc({
-              noBackToTopLinks: true,
-              title: '',
-              minimumHeaders: 1,
-              headers: 'section h1, section h2, section h3, section h4, section h5, section h6',
-              listType: 'ul',
-              showEffect: 'none',
-              classes: {list: 'tocList',
-                        item: 'tocItem'}
-            });
-        });
-    </script>
-
-    <script src="assets/js/script.js"></script>
-  </body>
-</html>
+:ET
