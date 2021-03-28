@@ -13,17 +13,21 @@ Pivotal Tracker is a straightforward **project-planning** tool that helps **soft
 
 Pivotal Tracker encourages a practical **agile software development** process, as pioneered by VMware Pivotal Labs.
 
-## Workflow Diagrams
+## Story Workflow Diagrams
 
-<p>Stories can be Chores, Features, Or Bugs. The flow is similar with the exception of chores don't have an Accept/Reject stage prior to being Done. This is because chores don't follow the QA process which is the reason Accept/Reject would be used.</p>
+- Stories can be Chores, Features, Or Bugs. 
+- The flow is similar with the exception of chores don't have an Accept/Reject stage prior to being Done. 
+  * This is because chores don't follow the QA process which is the reason Accept/Reject would be used.
 
 <img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png">
 
 ## Story Statuses
 
-- Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. The below diagram has information about each step and intended audience and actions.
+- Each status in the Tracker workflow has specific Owners and has specific actions at that step that make up the workflow. 
 
-<img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png">
+- The below diagram has information about each step and intended audience and actions.
+
+  * <img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/storystates.png">
 
 ### Statuses Continued
 
@@ -32,7 +36,7 @@ Pivotal Tracker encourages a practical **agile software development** process, a
   * They are waiting to be <a href="prioritizing_stories">prioritized into the Backlog</a>. 
   * You’ll see a <strong>Start</strong> button on unscheduled stories. 
   * Unscheduled stories are always shaded a light blue color.
-- Unstarted
+- **Unstarted**
   * Stories in the <a href="../terminology#backlog">Backlog</a> and <a href="../terminology#current">Current</a> panels that have a <strong>Start</strong> button showing are in the <strong>unstarted</strong> state. 
   * They’re prioritized, but no work is actively being done on them. 
   * Unstarted stories are always shaded a light grey color.
