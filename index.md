@@ -3,7 +3,7 @@ layout: default
 MathJax: true
 ---
 # Introduction
-![alt text](https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png =250x)
+<img src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png" width="200"/>
 
 ### Who? 
 
