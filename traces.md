@@ -1,6 +1,6 @@
 ## Trace Statuses
 
-The statuses for Housing on the Front End (Status*CC_c options) each have a task assigned to them if set with a trace date. In siutuations where a **Front End Coordinator** *(Primary Housing Coordinator)_ and **Backend Coordinator** _(Back*End_Coordinator_c)* are set, only certain statuses should be assigned to the **Backend Coordinator** to handle. The sheet below lists each status and if it should be reassigned when the **Back end Coordinator** is set. It also will assign back to **Primary Housing Coordinator** if the backend is removed.
+The statuses for Housing on the Front End (StatusCC_c options) each have a task assigned to them if set with a trace date. In siutuations where a **Front End Coordinator** _(Primary Housing Coordinator)_ and **Backend Coordinator** are set, only certain statuses should be assigned to the **Backend Coordinator** to handle. The sheet below lists each status and if it should be reassigned when the **Back end Coordinator** is set. It also will assign back to **Primary Housing Coordinator** if the backend is removed.
 
 ### Google Sheet
 
