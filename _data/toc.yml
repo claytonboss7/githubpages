@@ -33,3 +33,12 @@
           url: "docs/business-logic#coordinator-emails"
         - title: Person Account Conversion
           url: "docs/business-logic#person-account-conversion"
+    - title: "Quality Assurance"
+      url: "docs/quality-assurance"
+      children:
+        - title: Exception Reports
+          url: "docs/quality-assurance#exception-reports"
+        - title: Trace Creation
+          url: "docs/business-logic#coordinator-emails"
+        - title: Person Account Conversion
+          url: "docs/business-logic#person-account-conversion"
