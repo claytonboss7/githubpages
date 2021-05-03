@@ -1,23 +1,35 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "Dashboards"
+      url: "docs/dashboards"
       children:
-        - title: Features
+        - title: Housing Dashboard
+          url: "docs/dashboards#housing-dashboard"
+        - title: Trace Dashboard
+          url: "docs/trace-dashboard#trace-dashboard"
+    - title: "Pivotal Tracker"
+      url: "docs/pivotal-tracker"
+      children:
+        - title: Workflow
           url: "docs/getting-started#getting-started"
-        - title: Development
+        - title: Videos
           url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
-      children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
-    - title: "About"
+    - title: "Salesforce Development"
       url: "about"
-    - title: "News"
-      url: "news"
+    - title: "Pivotal Tracker"
+      url: "docs/pivotal-tracker"
+      children:
+        - title: Workflow
+          url: "docs/getting-started#getting-started"
+        - title: Videos
+          url: "docs/getting-started#development"
+    - title: "Business Logic"
+      url: "docs/business-logic"
+      children:
+        - title: Coordinator Emails
+          url: "docs/business-logic#coordinator-emails"
+        - title: Trace Creation
+          url: "docs/business-logic#coordinator-emails"
+        - title: Person Account Conversion
+          url: "docs/business-logic#person-account-conversion"

@@ -6,8 +6,8 @@ permalink: /docs/
 
 # Documentation
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
-particular page.
+Welcome to the {{ site.title }} Documentation pages. Here you can quickly jump to a 
+particular part of the app or section to get more information.
 
 <div class="section-index">
     <hr class="panel-line">
