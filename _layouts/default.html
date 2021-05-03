@@ -1,125 +1,58 @@
-<!doctype html>
-<html>
-  <head>
-    {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
-    {% capture url %}{% if lchar == "/" %}{{page.url}}index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{% if site.description %}{{site.description}} | {% endif %}{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision }}">
-    <script src="{{ 'assets/js/wiki-features.js' }}"></script>
-
-    {% if page.MathJax %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    {% endif %}
-
-    {% if site.custom_head %}
-        {% include head.html %}
-    {% endif %}
-
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    {% seo %}
-  </head>
-  <body>
-    <div id="titleBar">
-      <div id="titleLeft">
-        <a class="mainPagelink" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <p id="titleDescription">{{ site.description | default: site.github.project_tagline }}</p>
-      </div>
-    </div>
-
-    <div class="wrapper" id="mainContents">
-      <header>
-        {% if site.logo_url %}
-        <br/>
-        <a href="{{ '/' | relative_url }}">
-          <img id="logo_url_a" src="{{ site.logo_url2 }}" height="200" width="200">
-        </a>
-        <br/>
-        <a href="{{ '/' | relative_url }}">
-          <img id="logo_url_b" src="{{ site.logo_url }}" height="200" width="200">
-        </a>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.custom_sidebar %}
-            {% include sidebar.html %}
-        {% endif %}
-
-        <div class="tocTitle">Table of Contents</div>
-        <div id="toc"></div>
-        
-      </header>
-      <div class="mainTitle">
-        <p class="postedOn">Posted on {{site.time | date: "%Y-%m-%d"}}</p>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="subTitle">{{ site.description | default: site.github.project_tagline }}</p>
-        
-      </div>
-      <section>
-        <div id="content">
-          {{ content }}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <!-- Copyright 2019-2021 Vanessa Sochat-->
+  {% include head.html %}
+  {% include google-analytics.html %}
+  <body class="td-section">
+    {% include header.html %}
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+          {% include sidebar.html %}
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+              <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+                  {% include editable.html %}
+              </div>
+              <nav id="TableOfContents"><ul>
+              <li><ul id="TOC">
+                <!-- Links will be appended here-->
+              </ul></li>
+              </ul></nav>
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+	      <ol class="breadcrumb spb-1">
+              {% assign crumbs = page.url | append: "/"  | replace: '//', '/' | split: '/' %}
+              {% for crumb in crumbs offset: 1 %}{% if crumb != "index" %}{% if forloop.last %}
+                <li class="breadcrumb-item active" aria-current="page">
+	          <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                </li>{% else %}
+                {% if page.url != "/docs/" %}<li class="breadcrumb-item">
+                  <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{% if crumb == "docs" %}Documentation{% else %}{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}{% endif %}</a>
+                </li>{% endif %}{% endif %}
+                {% endif %}{% endfor %}
+	      </ol>
+           </nav>
+           <div class="td-content">
+	      {{ content }}	
+              {% if section.links %}<div class="section-index">
+               <hr class="panel-line">{% for child in section.links %}
+                 <div class="entry">
+                    <h5>
+                        <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
+                    </h5>
+                    <p>{{ child.description }}</p>
+                 </div>{% endfor %}
+              </div>{% endif %}
+              {% include feedback.html %}
+           </div>
+          </main>
         </div>
-          
-        {% if site.comments %}
-            {% include comments.html %}
-        {% endif %}
-
-      </section>
-      <footer>
-        {% if site.custom_footer %}
-            {% include footer.html %}
-        {% endif %}
-
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        
-      </footer>
+      </div>
+      {% include footer.html %}
     </div>
-    <script src="{{ 'assets/js/scale.fix.js' }}"></script>
-
-    {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-    {% endif %}
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#toc').toc({
-              noBackToTopLinks: true,
-              title: '',
-              minimumHeaders: 1,
-              headers: 'section h1, section h2, section h3, section h4, section h5, section h6',
-              listType: 'ul',
-              showEffect: 'none',
-              classes: {list: 'tocList',
-                        item: 'tocItem'}
-            });
-        });
-    </script>
-
-    <script src="{{ 'assets/js/script.js' }}"></script>
+    {% include scripts.html %}
   </body>
 </html>
