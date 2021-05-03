@@ -39,6 +39,13 @@ twitter: vsoch
 linkedin: vsochat
 dockerhub: vanessa
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-seo-tag
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
 

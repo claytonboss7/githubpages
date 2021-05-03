@@ -3,7 +3,7 @@ layout: default
 MathJax: true
 ---
 
-# Introduction :shipit:
+# Voyajer Knowledge Base
 
 <img align="right" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
 
