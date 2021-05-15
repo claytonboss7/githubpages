@@ -27,7 +27,7 @@ baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
 url: "https://https://claytonboss7.github.io/githubpages/"
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
+repo: "https://github.com/claytonboss7/githubpages"
 github_user: "claytonboss7"
 github_repo: "githubpages"
 
@@ -82,7 +82,7 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "posts"
+      path: "_posts"
       type: "posts"
     values:
-      layout: "post"
+      layout: page

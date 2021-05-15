@@ -1,4 +1,10 @@
-[Image: 2021-03-Trailhead_in_a_box-banner-1200x300-v3.png]
+---
+title: Trailhead
+description: A page for Trailhead and Training Materials
+---
+![DupeReport](../assets/img/2021-03-Trailhead_in_a_box-banner-1200x300-v3.png)
+
+
 ## Trailhead Engagement Playbook
 
 **Identify learning opportunities(use cases) across your organization.** 
@@ -10,7 +16,8 @@
     * Leadership Development
 * Key Company Initiatives - Equality, Wellness
 
-[Image: Quip Divider.jpg]**Figure out how you will motivate employees to skill up. Below are a few methods that Salesforce and many of our customers have used to drive Trailhead engagement.**
+![DupeReport](../assets/img/Quip Divider.jpg)
+**Figure out how you will motivate employees to skill up. Below are a few methods that Salesforce and many of our customers have used to drive Trailhead engagement.**
 
 * A fun Trailhead Challenge is a very effective way to kick off your initial Trailhead engagement, ie) reward your top badge earners after a 6-week Trailhead learning adventure! 
     * We’ve also seen successful challenges that last 3 months, 6 months, 12 months. It’s up to you! 
