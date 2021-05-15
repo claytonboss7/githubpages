@@ -31,10 +31,6 @@
           children:
             - title: View Options Reports
               url: "docs/quality-assurance#exception-reports"
-        - title: Trace Creation
-          url: "docs/business-logic#coordinator-emails"
-        - title: Person Account Conversion
-          url: "docs/business-logic#person-account-conversion"
     - title: "Documentation"
       url: "docs/documentation"
       children:
