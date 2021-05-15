@@ -5,7 +5,7 @@ description: Details on Duplicates Functionality
 
 <hr width="50%">
 
-# Exception Reports
+# QA / Exception Report
 ## Has Duplicate Traces Report
 **Background:** When traces are created (Tasks inserted) we do a check at the end to see if we have more traces than we should for a particular bid.  ** This does not currently include old data, only new records going forward.
 
@@ -17,7 +17,7 @@ description: Details on Duplicates Functionality
   * **Link:** [Has Duplicate Traces Report](https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zJHzEAM/edit)
 
 #### Screenshots 
-  * **Non Exception State**![DupeReport](../assets/img/ExceptionDupeTraces.jpg)
-  * **Exception State**![DupeReport](../assets/img/exception_report_not_empty.jpg)
+  * **Non Exception State**![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/ExceptionDupeTraces.jpg)
+  * **Exception State**![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/exception_report_not_empty.jpg)
 
 <hr>

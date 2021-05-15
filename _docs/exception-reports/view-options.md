@@ -2,7 +2,7 @@
 title: View Options
 description: Details on View Options Functionality
 ---
-# Exception Report
+# QA / Exception Report
 
 ## View Options for Stay
 **Details:** When the options are sent to the client from the dashboard, there are a few criteria for the data for it to show the client.  This report has the fields from the query so we can figure out what condition it didn't meet.
@@ -30,5 +30,5 @@ The query is doing the following:
 
 #### Screenshots 
   * **Non Exception State (What you see as results is what Community would bring back)**
-  ![DupeReport](.../assets/img/options.jpg)
+  ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.jpg)
 <hr>
