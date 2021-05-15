@@ -30,5 +30,5 @@ The query is doing the following:
 
 #### Screenshots 
   * **Non Exception State (What you see as results is what Community would bring back)**
-  ![DupeReport](../assets/img/options.jpg)
+  ![DupeReport](.../assets/img/options.jpg)
 <hr>
