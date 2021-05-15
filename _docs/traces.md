@@ -1,6 +1,7 @@
 ---
 title: Traces
 description: A page for traces.
+permalink: /docs/dashboards/trace-dashboard/
 ---
 # Traces
 
