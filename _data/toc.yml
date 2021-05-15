@@ -1,7 +1,7 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Dashboards"
+    - title: "User Guide - Dashboards"
       url: "docs/dashboards"
       children:
         - title: Housing Dashboard
@@ -14,23 +14,8 @@
           url: "docs/dashboards/freight-dashboard"
         - title: Air Dashboard
           url: "docs/dashboards/air-dashboard"               
-    - title: "Pivotal Tracker"
-      url: "docs/pivotal-tracker"
-      children:
-        - title: Workflow
-          url: "docs/pivotal-tracker#getting-started"
-        - title: Videos
-          url: "docs/pivotal-tracker#videos"
-    - title: "Salesforce Development"
-      url: "docs/salesforce-development"
-      children:
-        - title: "RR SFDX Project"
-          url: "docs/salesforce-development#rr-sfdx-project"
-        - title: "Apex Tests"
-          url: "docs/salesforce-development#coordinator-emails"
-        - title: "Code Documentation"
-          url: "docs/salesforce-development#person-account-conversion"
-    - title: "Business Logic"
+
+    - title: "User Guide - Business Logic"
       url: "docs/business-logic"
       children:
         - title: Coordinator Emails
@@ -39,7 +24,7 @@
           url: "docs/business-logic#coordinator-emails"
         - title: Person Account Conversion
           url: "docs/business-logic#person-account-conversion"
-    - title: "QA"
+    - title: "QA / Testing"
       url: "docs/quality-assurance"
       children:
         - title: Exception Reports
@@ -51,32 +36,28 @@
           url: "docs/business-logic#coordinator-emails"
         - title: Person Account Conversion
           url: "docs/business-logic#person-account-conversion"
-    - title: "Salesforce Documentation"
-      url: "docs/salesforce-documentation"
+    - title: "Documentation"
+      url: "docs/documentation"
       children:
-        - title: Exception Reports
-          url: "docs/quality-assurance#exception-reports"
-        - title: Trace Creation
-          url: "docs/business-logic#coordinator-emails"
-        - title: Person Account Conversion
-          url: "docs/business-logic#person-account-conversion"
-    - title: "Trailhead"
-      url: "docs/trailhead"
-      children:
-        - title: Trailmixes
-          url: "docs/quality-assurance#trailmixes"
-    - title: "Conga Products"
-      url: "docs/conga"
-      children:
-        - title: Conga Sign
-          url: "docs/conga#congasign"
-    - title: "Releases"
-      url: "docs/releases"
-      children:
-        - title: Sprint 45
-          url: "docs/sprint45"
-    - title: "Backups"
-      url: "docs/backups"
-      children:
-        - title: Data
-          url: "docs/backups#data"
+        - title: "Technical Documentation"
+          url: "docs/technical-documentation"
+        - title: "Trailhead"
+          url: "docs/trailhead"
+          children:
+            - title: Trailmixes
+              url: "docs/quality-assurance#trailmixes"
+        - title: "Conga Products"
+          url: "docs/conga"
+          children:
+            - title: Conga Sign
+              url: "docs/conga#congasign"
+        - title: "Releases"
+          url: "docs/releases"
+          children:
+            - title: Sprint 45
+              url: "docs/sprint45"
+        - title: "Backups"
+            url: "docs/backups"
+            children:
+              - title: Data
+                url: "docs/backups#data"
