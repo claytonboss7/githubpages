@@ -14,7 +14,6 @@
           url: "docs/dashboards/freight-dashboard"
         - title: Air Dashboard
           url: "docs/dashboards/air-dashboard"               
-
     - title: "User Guide - Business Logic"
       url: "docs/business-logic"
       children:
