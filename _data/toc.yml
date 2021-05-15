@@ -2,7 +2,18 @@
   url: docs
   links:
     - title: "Dashboards"
-      url: "docs/dashboards"          
+      url: "docs/dashboards"
+      children:
+        - title: Housing Dashboard
+          url: "docs/dashboards/housing-dashboard"
+        - title: Trace Dashboard
+          url: "docs/dashboards/trace-dashboard"
+        - title: Ground Dashboard
+          url: "docs/dashboards/ground-dashboard"
+        - title: Freight Dashboard
+          url: "docs/dashboards/freight-dashboard"
+        - title: Air Dashboard
+          url: "docs/dashboards/air-dashboard"               
     - title: "Pivotal Tracker"
       url: "docs/pivotal-tracker"
       children:
