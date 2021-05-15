@@ -44,6 +44,9 @@
       children:
         - title: Exception Reports
           url: "docs/quality-assurance#exception-reports"
+          children:
+            - title: Exception Reports
+              url: "docs/quality-assurance#exception-reports"
         - title: Trace Creation
           url: "docs/business-logic#coordinator-emails"
         - title: Person Account Conversion
