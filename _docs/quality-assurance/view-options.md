@@ -28,7 +28,7 @@ The query is doing the following:
 * Include in Options OR Include in Option Cover Sheet fields are true  
 * **Link:** [Option Details Report (edit filters to troubleshoot)](https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zK6TEAU/edit)
 
-#### Screenshots 
+### Screenshots 
   * **Non Exception State (What you see as results is what Community would bring back)**
   ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.jpg)
 <hr>
