@@ -13,6 +13,9 @@ Started as a dataload issue that ended up being scripted to avoid loading 10 fil
 
 ## Usage
 
+![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/person-account-usage.jpg)
+
+
 On a contact that you wish to convert into a person account, use the "Convert to Person" button on the Contact layout to queue this record up for conversion.  An email will be sent when the conversion is complete with details, assuming the Custom Setting for emails is enabled.  Refer here for information on removing this email.
 
 ## Workflow / Logic
