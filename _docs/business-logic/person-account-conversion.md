@@ -17,29 +17,25 @@ On a contact that you wish to convert into a person account, use the "Convert to
 
 ## Workflow / Logic
 
-The field "PersonAccountConversion\_\_c" on the Contact object is the Checkbox field that drives the conversion.
-
+- The field "PersonAccountConversion\_\_c" on the Contact object is the Checkbox field that drives the conversion.
 - "_Convert to Person_" Action on Contact Object will allow for input of the PersonAccountConversion\_\_c flag
 - Process Builder on Contact object catches when "PersonAccountConversion\_\_c" goes to "TRUE"
 - Process Builder will pass that Contact into Batch Apex to be processed.
 - Business Logic inside of Person Account Converter is as follows:
   ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/PersonAccountConversion.jpeg)
-  - Check for existing records
-  - **Exists**?
-    - 1.0 Create Person Account NEW to move business contact information to
-    - 1.1 Move Tasks from Original Contact to new Account from step 1.0
-    - 1.2 Move ACRs from Original Contact to new Account from step 1.0
-    - 1.3 Move Content Documents to new Account from step 1.0
-  - **Didn't Exist**?
-    - 2.0 Convert Non Existing Records
-    - 2.1 Create Person Account to House Contact Pre-Conversion with
-      - Owner
-      - Currency
-  - 2.2 Attach the Contact we selected for Convert to new Account (The Business Contact we want to convert)
-  - 2.3 Run Validation on the Account prior to Conversion
-    - Validation will run on new Account created to isolate the business Contact and turn into Person account.
-  - 3.0 Converts Contact to Person Account
-  - 4.0 Email when complete
+  - Flow
+    - Existing Person Account that matches by Name?
+    - Yes 
+      - Create Person Account to transfer Business Contact to
+      - Copy Fields from existing records to New Person Account and Flag if mismatched fields for same Person (LastName had different value on Existing Person Account and Business Contact being Converted)
+      - Move Tasks, ACRs, and ContentDocuments
+    - No
+      - Go through standard Conversion process
+      - Create Account to House Contact 
+      - Run validation related to Currency, ReportsTo, Owner, and other criteria
+      - Convert RecordTypeId of Account we just created.
+  - Email and Logging enabled?
+    - Email when complete
 
 ### Troubleshooting
 
@@ -47,9 +43,12 @@ The field "PersonAccountConversion\_\_c" on the Contact object is the Checkbox f
   - Accounts Flagged for Conversion / Successful Person Accounts Joined Report
     - https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zJ2kEAE/view
     - This report will have two side by side reports, the left being the attempted records anthe right being anything that wasn't a Person Account after conversion.
-- Developer Console
+    <hr width="60%"/>
+### Developer Console
   - When running the batch you would see SerialBatchRangeChunkHandler logs popping up for each batch it runs. With this log you will have a comprehensive list of variables and their values while it processed, which could aid in troubleshooting.
 - Emails can be enabled to send when the job is finished in the Custom Setting for Road Rebel Settings - Send Person Account Email.
+
+<hr width="30%"/>
 
 ## The Execute Anonymous Code Block
 
