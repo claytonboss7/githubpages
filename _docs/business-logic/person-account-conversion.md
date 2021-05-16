@@ -13,7 +13,7 @@ Started as a dataload issue that ended up being scripted to avoid loading 10 fil
 
 ## Usage
 
-![personaccountsusage](https://claytonboss7.github.io/voyajerwiki/assets/img/person-accounts-usage.gif)
+![personaccountsusage](https://claytonboss7.github.io/voyajerwiki/assets/img/person-account-usage.gif)
 ![personaccountsusage](https://claytonboss7.github.io/voyajerwiki/assets/img/person-accounts-usage.gif)
 
 
