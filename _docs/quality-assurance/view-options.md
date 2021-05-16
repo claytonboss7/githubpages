@@ -1,16 +1,21 @@
 ---
 title: View Options
 description: Details on View Options Functionality
+badges:
+ - type: warning
+   tag: warning-badge
+ - type: danger
+   tag: danger-badge
 ---
 # QA / Exception Report
 
 
 <br/>
 
-## View Options for Stay
+## View Options for Stay 
+
 **Details:** When the options are sent to the client from the dashboard, there are a few criteria for the data for it to show the client.  This report has the fields from the query so we can figure out what condition it didn't meet.
 <br/>
-<img align="right" width="600" height="600" src="https://claytonboss7.github.io/voyajerwiki/assets/img/options.gif">
 
 **Usage** Report can be used to troubleshoot options and if removing criteria shows the Stay we are investigating.
 
@@ -44,6 +49,8 @@ The query is doing the following:
 <br/>
 
 ### Screenshots 
+  * **Viewing Options in Community:**
+  ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.gif)
   * **Non Exception State (What you see as results is what Community would bring back)**
   ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.jpg)
 <hr>
