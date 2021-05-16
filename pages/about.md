@@ -26,7 +26,7 @@ permalink: /about
                                   ~~                                           \::/    /                                         \::/    /                \:|   |          
                                                                                 \/____/                                           \/____/                  \|___|          
 ```
-<img align="right" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
+<img height="300" width="300" src="https://claytonboss7.github.io/voyajerwiki/assets/img/welcome.png"></img>
 
 ## Purpose
 
