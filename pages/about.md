@@ -26,8 +26,6 @@ permalink: /about
                                   ~~                                           \::/    /                                         \::/    /                \:|   |          
                                                                                 \/____/                                           \/____/                  \|___|          
 ```
-# Introduction :shipit:
-
 <img align="right" src="https://raw.githubusercontent.com/claytonboss7/githubpages/gh-pages/assets/images/welcome.png">
 
 ## Purpose
