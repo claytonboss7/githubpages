@@ -42,6 +42,14 @@ The query is doing the following:
 
 <br/>
 
+| Field | When is it set? |
+| --- | --- |
+| Housing__c | Handled in the dashboard and assigned to the bid when created. |
+| Status__c != 'Deactivated Bid' | Bid status can not include Deactivated Bid. |
+| Housing__r.Options_sent_to_client__c != NULL | With any of the Send Options buttons, this should stamp after it sends. |
+| Include_in_options__c OR Include_in_option_cover_sheet__c | These are set in the dashboard on the Bid tab.  Also has logic where if the `Option__c` field has a number in it to set this to true. |
+
+
 ### Link
 [Option Details Report (edit filters to troubleshoot)](https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zK6TEAU/edit)
 
