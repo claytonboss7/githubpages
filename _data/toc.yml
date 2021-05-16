@@ -1,23 +1,58 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "User Guide - Dashboards"
+      url: "docs/dashboards"
       children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
+        - title: "Housing Dashboard"
+          url: "docs/dashboards/housing-dashboard"
+        - title: Trace Dashboard
+          url: "docs/dashboards/trace-dashboard"
+        - title: Ground Dashboard
+          url: "docs/dashboards/ground-dashboard"
+        - title: Freight Dashboard
+          url: "docs/dashboards/freight-dashboard"
+        - title: Air Dashboard
+          url: "docs/dashboards/air-dashboard"               
+    - title: "User Guide - Business Logic"
+      url: "docs/business-logic"
       children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+        - title: Coordinator Emails
+          url: "docs/business-logic#coordinator-emails"
+        - title: Trace Creation
+          url: "docs/business-logic#coordinator-emails"
+        - title: Person Account Conversion
+          url: "docs/business-logic/person-account-conversion"
+    - title: "QA / Testing"
+      url: "docs/quality-assurance"
+      children:
+        - title: Exception Reports
+          url: "docs/quality-assurance/exception-reports"
+          children:
+            - title: View Options Reports
+              url: "docs/quality-assurance#exception-reports"
+    - title: "Documentation"
+      url: "docs/documentation"
+      children:
+        - title: "Technical Documentation"
+          url: "docs/technical-documentation"
+        - title: "Trailhead"
+          url: "docs/trailhead"
+          children:
+            - title: "Trailmixes"
+              url: "docs/quality-assurance#trailmixes"
+        - title: "Conga Products"
+          url: "docs/conga"
+          children:
+            - title: "Conga Sign"
+              url: "docs/conga#congasign"
+        - title: "Releases"
+          url: "docs/releases"
+          children:
+            - title: Sprint 45
+              url: "docs/sprint45"
+        - title: "Backups"
+          url: "docs/backups"
+          children:
+            - title: "Data"
+              url: "docs/backups#data"
