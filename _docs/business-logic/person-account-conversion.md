@@ -86,14 +86,3 @@ Clay Boss
 ## Afterthoughts
 
 Some Contacts are causing problems and as of the time of writing this it is not clear why. It will hang up as a batch process and in the UI synchronously it will give a GACK that SF support for whatever reason could not track down.
-
-- [awesome-readme](https://github.com/matiassingers/awesome-readme)
-- [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-- [dbader](https://github.com/dbader/readme-template)
-- [zenorocha](https://gist.github.com/zenorocha/4526327)
-- [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
-
-=== Package Info
-Namespace Prefix  Name                      Id                  Alias                     Description              Type
-────────────────  ────────────────────────  ──────────────────  ────────────────────────  ───────────────────────  ────────
-                  rrPersonAccountConverter  0Ho6g000000k9fFCAQ  rrPersonAccountConverter  RR Person Acc Converter  Unlocked
