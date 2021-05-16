@@ -27,9 +27,9 @@ baseurl: "/voyajerwiki" # the subpath of your site, e.g. /blog
 url: "https://claytonboss7.github.io/voyajerwiki/"
 
 # Social (First three Required)
-repo: "https://github.com/claytonboss7/githubpages"
+repo: "https://github.com/claytonboss7/voyajerwiki"
 github_user: "claytonboss7"
-github_repo: "githubpages"
+github_repo: "voyajerwiki"
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: false
