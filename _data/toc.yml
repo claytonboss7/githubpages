@@ -13,11 +13,11 @@
         - title: "Freight Dashboard"
           url: "docs/dashboards/freight-dashboard"
         - title: "Air Dashboard"
-          url: "docs/dashboards/air-dashboard"               
+          url: "docs/dashboards/air-dashboard"
     - title: "User Guide - Business Logic"
       url: "docs/business-logic"
       children:
-        - title: Coordinator Emails
+        - title: "Coordinator Emails"
           url: "docs/business-logic#coordinator-emails"
         - title: "Trace Creation"
           url: "docs/business-logic#coordinator-emails"
