@@ -58,3 +58,5 @@
           children:
             - title: "Data"
               url: "docs/backups#data"
+        - title: "Project Management"
+          url: "docs/documentation/project-management"
