@@ -6,6 +6,7 @@ description: A detailed write up of the custom Person Account Conversion Functio
 # Person Account Converter
 
 _Convert Business Accounts to Person Accounts_
+_Last Updated 05162021 by Clay Boss_
 
 ## Description
 
@@ -44,7 +45,7 @@ On a contact that you wish to convert into a person account, use the "Convert to
 
 - Exception Reports
   - Accounts Flagged for Conversion / Successful Person Accounts Joined Report
-    - https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zJ2kEAE/view
+    - [https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zJ2kEAE/view]
     - This report will have two side by side reports, the left being the attempted records anthe right being anything that wasn't a Person Account after conversion.
 
 | Field Label | Description |
@@ -58,6 +59,8 @@ On a contact that you wish to convert into a person account, use the "Convert to
 
 ### Developer Console
   - When running the batch you would see SerialBatchRangeChunkHandler logs popping up for each batch it runs. With this log you will have a comprehensive list of variables and their values while it processed, which could aid in troubleshooting.
+
+### Email and Logging
   - Emails can be enabled to send when the job is finished in the Custom Setting for Road Rebel Settings - Send Person Account Email.
 
 <hr width="30%"/>
@@ -75,6 +78,7 @@ String theQuery =
 ```
 
 ## Automated Tests
+
 | Test Name | Description of Test |
 | --- | --- |
 | `PersonAccountAnalyzerBatchTestPersonAccountExists` | Tests the workflow where Person Account exists, and the new Person Account and field comparison and related record moving is asserted in the class. |
@@ -85,9 +89,10 @@ String theQuery =
 ## Field Mappings
 The Account and Contact fields, and their associated Person fields, are manually stepped through on the record and compared, and either flagged for review or flagged as having no issues.
 
-** Note: The fields are listed are what would be evaluated for copying the fields for our Person Account Conversion workaround in the existing Person Account side of the workflow.
+** Note: The fields are listed are what would be evaluated for copying the fields for our Person Account Conversion workaround in the existing Person Account side of the workflow. **
 
 The fields on the left side or "key" of the map are Person Account fields and the fields in the right "value" side of the map are from Contact.
+
 ```Person Account Field => Contact Field```
 
 ```
@@ -124,7 +129,7 @@ The fields on the left side or "key" of the map are Person Account fields and th
 - ApexClass: PersonAccountConvertInvoke
 - ApexClass: PersonAccountConverterBatch
 - Flow: Contact_Convert_person_Account
-- QuickAction: Contact - Convert to Person
+- QuickAction: Contact - Convert_to_ Person
 - CustomField:  PersonAccountConversion\_\_c
 - CustomField:  Person_Account_Conversion_Start\_\_c
 - CustomField:  Person_Account_Conversion_End\_\_c
