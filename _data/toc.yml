@@ -23,7 +23,7 @@
           url: "docs/business-logic#coordinator-emails"
         - title: "Person Account Conversion"
           url: "docs/business-logic/person-account-conversion"
-    - title: "QA / Testing"
+    - title: "QA - Testing"
       url: "docs/quality-assurance"
       children:
         - title: "Exception Reports"
