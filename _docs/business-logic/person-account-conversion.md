@@ -13,7 +13,6 @@ Started as a dataload issue that ended up being scripted to avoid loading 10 fil
 
 ## Usage
 
-![personaccountsusage](https://claytonboss7.github.io/voyajerwiki/assets/img/person-account-usage.gif)
 ![personaccountsusage](https://claytonboss7.github.io/voyajerwiki/assets/img/person-accounts-usage.gif)
 
 
@@ -47,10 +46,12 @@ On a contact that you wish to convert into a person account, use the "Convert to
   - Accounts Flagged for Conversion / Successful Person Accounts Joined Report
     - https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zJ2kEAE/view
     - This report will have two side by side reports, the left being the attempted records anthe right being anything that wasn't a Person Account after conversion.
-    <hr width="60%"/>
+
+<hr width="60%"/>
+
 ### Developer Console
   - When running the batch you would see SerialBatchRangeChunkHandler logs popping up for each batch it runs. With this log you will have a comprehensive list of variables and their values while it processed, which could aid in troubleshooting.
-- Emails can be enabled to send when the job is finished in the Custom Setting for Road Rebel Settings - Send Person Account Email.
+  - Emails can be enabled to send when the job is finished in the Custom Setting for Road Rebel Settings - Send Person Account Email.
 
 <hr width="30%"/>
 
