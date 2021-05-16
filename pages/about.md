@@ -3,7 +3,7 @@ title: About
 permalink: /about
 ---
 
-<img height="300" width="300" src="https://claytonboss7.github.io/voyajerwiki/assets/img/welcome.png" align="right" style="padding:2px;">
+<img height="150" width="150" src="https://claytonboss7.github.io/voyajerwiki/assets/img/welcome.png" align="right" style="padding:20px;">
 
 ## Purpose
 
