@@ -4,7 +4,7 @@
     - title: "User Guide - Dashboards"
       url: "docs/dashboards"
       children:
-        - title: Housing Dashboard
+        - title: "Housing Dashboard"
           url: "docs/dashboards/housing-dashboard"
         - title: Trace Dashboard
           url: "docs/dashboards/trace-dashboard"
@@ -39,12 +39,12 @@
         - title: "Trailhead"
           url: "docs/trailhead"
           children:
-            - title: Trailmixes
+            - title: "Trailmixes"
               url: "docs/quality-assurance#trailmixes"
         - title: "Conga Products"
           url: "docs/conga"
           children:
-            - title: Conga Sign
+            - title: "Conga Sign"
               url: "docs/conga#congasign"
         - title: "Releases"
           url: "docs/releases"
@@ -54,5 +54,5 @@
         - title: "Backups"
           url: "docs/backups"
           children:
-            - title: Data
+            - title: "Data"
               url: "docs/backups#data"
