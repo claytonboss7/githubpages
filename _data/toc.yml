@@ -18,10 +18,10 @@
       url: "docs/business-logic"
       children:
         - title: Coordinator Emails
+          url: "docs/business-logic/coordinator-emails"
+        - title: "Trace Creation"
           url: "docs/business-logic#coordinator-emails"
-        - title: Trace Creation
-          url: "docs/business-logic#coordinator-emails"
-        - title: Person Account Conversion
+        - title: "Person Account Conversion"
           url: "docs/business-logic/person-account-conversion"
         - title: "View Options"
           url: "docs/quality-assurance/view-options"
