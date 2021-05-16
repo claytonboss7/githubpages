@@ -9,7 +9,6 @@ badges:
 ---
 # QA / Exception Report
 
-
 <br/>
 
 ## View Options for Stay 
