@@ -67,31 +67,74 @@ On a contact that you wish to convert into a person account, use the "Convert to
 ```
 String theQuery =
 
-   'SELECT Id,ReportsToId,Name,CurrencyISOCode,OwnerId,AccountId,Account.Name
-    FROM Contact
-    WHERE personaccountconversion__c = true
-    AND ispersonaccount=false';
+   'SELECT MailingStreet,MailingState,MailingCity,MailingPostalCode,OtherStreet,OtherCity,OtherState,OtherPostalCode,FirstName,LastName,AssistantName,AssistantPhone,Birthdate,Department,DoNotCall,Email,HasOptedOutOfEmail,HomePhone,LeadSource,OtherAddress,MailingAddress,MobilePhone,OtherPhone,Title,Id,ReportsToId,Name,CurrencyISOCode,OwnerId,AccountId,Account.Name FROM Contact WHERE PersonAccountConversion__c = true ORDER BY LastModifiedDate LIMIT ' + (Test.isRunningTest() ? ids?.size() : 1);
 
     PersonAccountAnalyzerBatch b = new PersonAccountAnalyzerBatch(theQuery);
 
     Database.executeBatch(b, 1);
 ```
 
-## Authors
+## Automated Tests
+| Test Name | Description of Test |
+| --- | --- |
+| `PersonAccountAnalyzerBatchTestPersonAccountExists` | Tests the workflow where Person Account exists, and the new Person Account and field comparison and related record moving is asserted in the class. |
+| `PersonAccountAnalyzerBatchTestTimeStamps` | Tests the functionality of the Start and Complete timestamps. |
+| `PersonAccountAnalyzerBatchTestFieldValuesNotNullDifferent` | Tests the existing Person Account workflow of copying fields.  Two different values on the same field across the existing records should flag for review. |
+| `PersonAccountAnalyzerBatchTestFieldValuesNotDifferent` | Tests the existing Person Account workflow of copying fields.  The same value across the existing records for specific fields should mark as no issues. |
 
-Clay Boss
+## Field Mappings
+The Account and Contact fields, and their associated Person fields, are manually stepped through on the record and compared, and either flagged for review or flagged as having no issues.
+
+** Note: The fields are listed are what would be evaluated for copying the fields for our Person Account Conversion workaround in the existing Person Account side of the workflow.
+
+The fields on the left side or "key" of the map are Person Account fields and the fields in the right "value" side of the map are from Contact.
+```Person Account Field => Contact Field```
+
+```
+    Map<String, String> accountFieldContactFieldMap = new Map<String, String>{
+      'FirstName' => 'FirstName',
+      'LastName' => 'LastName',
+      'PersonAssistantName' => 'AssistantName',
+      'PersonAssistantPhone' => 'AssistantPhone',
+      'PersonBirthDate' => 'BirthDate',
+      'PersonDepartment' => 'Department',
+      'PersonDoNotCall' => 'DoNotCall',
+      'PersonEmail' => 'Email',
+      'PersonHasOptedOutOfEmail' => 'HasOptedOutOfEmail',
+      'PersonHomePhone' => 'HomePhone',
+      'PersonLeadSource' => 'LeadSource',
+      'PersonOtherStreet' => 'OtherStreet',
+      'PersonOtherCity' => 'OtherCity',
+      'PersonOtherState' => 'OtherState',
+      'PersonOtherPostalCode' => 'OtherPostalCode',
+      'PersonMailingStreet' => 'MailingStreet',
+      'PersonMailingCity' => 'MailingCity',
+      'PersonMailingPostalCode' => 'MailingPostalCode',
+      'PersonMailingState' => 'MailingState',
+      'PersonMobilePhone' => 'MobilePhone',
+      'PersonOtherPhone' => 'OtherPhone',
+      'PersonTitle' => 'Title'
+    };
+```
 
 ## Manifest
 
-- PersonAccountAnalyzerBatch
-- PersonAccountAnalyzerBatchTest
-- PersonAccountConvertInvoke
-- PersonAccountConverterBatch
-- Contact_Convert_person_Account.flow-
-- Quick Action - Contact - Convert to Person
-- Custom Field - PersonAccountConversion\_\_c
+- ApexClass: PersonAccountAnalyzerBatch
+- ApexClass: PersonAccountAnalyzerBatchTest
+- ApexClass: PersonAccountConvertInvoke
+- ApexClass: PersonAccountConverterBatch
+- Flow: Contact_Convert_person_Account
+- QuickAction: Contact - Convert to Person
+- CustomField:  PersonAccountConversion\_\_c
+- CustomField:  Person_Account_Conversion_Start\_\_c
+- CustomField:  Person_Account_Conversion_End\_\_c
+- CustomField:  Person_Account_No_Issues\_\_c
+- CustomField:  Person_Account_Needs_Attn\_\_c
 
 ## Afterthoughts
 
 Some Contacts are causing problems and as of the time of writing this it is not clear why. It will hang up as a batch process and in the UI synchronously it will give a GACK that SF support for whatever reason could not track down.
 
+## Authors
+
+Clay Boss
