@@ -47,6 +47,13 @@ On a contact that you wish to convert into a person account, use the "Convert to
     - https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zJ2kEAE/view
     - This report will have two side by side reports, the left being the attempted records anthe right being anything that wasn't a Person Account after conversion.
 
+| Field Label | Description |
+| --- | --- |
+| `Person Account Conversion Start` | Timestamped when the conversion process starts. |
+| `Person Account Conversion Complete` | Timestamped when the conversion process ends. |
+| `Person Account Conversion No Issues` | If true, all the operations completed without any issues. |
+| `Person Account Needs Attn` | If true, the account needs special attention because field values were mismatched. |
+
 <hr width="60%"/>
 
 ### Developer Console
@@ -55,7 +62,7 @@ On a contact that you wish to convert into a person account, use the "Convert to
 
 <hr width="30%"/>
 
-## The Execute Anonymous Code Blocke
+## The Execute Anonymous Code Block
 
 ```
 String theQuery =
@@ -87,3 +94,4 @@ Clay Boss
 ## Afterthoughts
 
 Some Contacts are causing problems and as of the time of writing this it is not clear why. It will hang up as a batch process and in the UI synchronously it will give a GACK that SF support for whatever reason could not track down.
+
