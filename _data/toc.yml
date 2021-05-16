@@ -6,25 +6,25 @@
       children:
         - title: "Housing Dashboard"
           url: "docs/dashboards/housing-dashboard"
-        - title: Trace Dashboard
+        - title: "Trace Dashboard"
           url: "docs/dashboards/trace-dashboard"
-        - title: Ground Dashboard
+        - title: "Ground Dashboard"
           url: "docs/dashboards/ground-dashboard"
-        - title: Freight Dashboard
+        - title: "Freight Dashboard"
           url: "docs/dashboards/freight-dashboard"
-        - title: Air Dashboard
+        - title: "Air Dashboard"
           url: "docs/dashboards/air-dashboard"               
     - title: "User Guide - Business Logic"
       url: "docs/business-logic"
       children:
         - title: Coordinator Emails
           url: "docs/business-logic#coordinator-emails"
-        - title: Trace Creation
+        - title: "Trace Creation"
           url: "docs/business-logic#coordinator-emails"
-        - title: Person Account Conversion
+        - title: "Person Account Conversion"
           url: "docs/business-logic/person-account-conversion"
     - title: "QA / Testing"
       url: "docs/quality-assurance"
       children:
-        - title: Exception Reports
+        - title: "Exception Reports"
           url: "docs/quality-assurance/exception-reports"
