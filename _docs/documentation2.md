@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Documentation2
 description: Details on Documentation in the System
 ---
 # Documentation
@@ -12,6 +12,6 @@ Documents to reference for Voyajer for their details in SF.com.  Any information
   * [Sequence Diagrams of Workflow](sequence-diagrams)
     * A sequence diagram to illustrate the communication between Client, Dashboard, and Community
 
-  <hr width="70%">
+<hr width="70%">
 
-  <br/>
+<br/>
