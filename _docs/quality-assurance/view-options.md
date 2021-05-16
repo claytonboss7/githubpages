@@ -9,6 +9,8 @@ description: Details on View Options Functionality
 
 ## View Options for Stay
 **Details:** When the options are sent to the client from the dashboard, there are a few criteria for the data for it to show the client.  This report has the fields from the query so we can figure out what condition it didn't meet.
+![Alt Text](https://claytonboss7.github.io/voyajerwiki/assets/img/options.gif)
+
 
 **Usage** Report can be used to troubleshoot options and if removing criteria shows the Stay we are investigating.
 
