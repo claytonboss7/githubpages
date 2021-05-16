@@ -59,7 +59,8 @@ The query is doing the following:
   Viewing Options in Community:
   <br/>
   ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.gif)
-  Non Exception State (What you see as results is what Community would bring back)**
+  <br/>
+  ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/view-options-report.gif)
   <br/>
   ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.jpg)
 <hr>
