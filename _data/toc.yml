@@ -54,7 +54,7 @@
             - title: Sprint 45
               url: "docs/sprint45"
         - title: "Backups"
-          url: "docs/backups"
+          url: "docs/documentation/backups"
           children:
             - title: "Data"
               url: "docs/backups#data"
