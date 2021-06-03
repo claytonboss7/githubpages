@@ -1,9 +1,8 @@
 ---
 title: Pivotal Tracker
 description: A page for Pivotal Tracker.
-layout: default
 ---
-# Pivotal Trackerr
+# Pivotal Tracker
 
 <img src="https://claytonboss7.github.io/voyajerwiki/assets/img/quick_start_1@1x.png">
 
