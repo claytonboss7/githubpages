@@ -28,7 +28,7 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 
 - The below diagram has information about each step and intended audience and actions.
 
-  * <img src="<img src="https://www.pivotaltracker.com/help/kb_assets/storystates.png">
+  * <img src="https://www.pivotaltracker.com/help/kb_assets/storystates.png">
 
 ***
 ### Statuses Continued
