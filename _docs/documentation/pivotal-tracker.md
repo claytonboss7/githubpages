@@ -4,7 +4,7 @@ description: A page for Pivotal Tracker.
 ---
 # Pivotal Tracker
 
-<img src="https://claytonboss7.github.io/voyajerwiki/assets/img/quick_start_1@1x.png">
+<img src="https://www.pivotaltracker.com/help/kb_assets/quick_start_1@1x.png">
 
 ## What is Pivotal Tracker?
 Pivotal Tracker is a straightforward **project-planning** tool that helps **software development teams** form realistic expectations about when work might be completed based on the team’s ongoing performance. Tracker visualizes your projects in the form of stories (virtual cards) moving through your workflow, encouraging you to break down projects into manageable chunks and have important conversations about deliverables and scope. As your team estimates and prioritizes those stories, Tracker divides them into future iterations, learning from your team’s natural pace of work to accurately predict when you will complete future work. Tracker’s transparent team view of priorities means that everyone knows what needs to be done, what is being done, and when it will be completed. Tracker’s agile philosophy not only helps your team keep pace and plan work, but adjust and change course when the unexpected happens, so your team can deliver earlier and more consistently.
@@ -18,7 +18,7 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 - The flow is similar with the exception of chores don't have an Accept/Reject stage prior to being Done. 
   * This is because chores don't follow the QA process which is the reason Accept/Reject would be used.
 
-<img src="<img src="https://claytonboss7.github.io/voyajerwiki/assets/trackers_workflow_1@1x.png">
+<img src="<img src="https://www.pivotaltracker.com/help/kb_assets/trackers_workflow_1@1x.png">
 
 ***
 
@@ -28,7 +28,7 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 
 - The below diagram has information about each step and intended audience and actions.
 
-  * <img src="<img src="https://claytonboss7.github.io/voyajerwiki/assets/storystates.png">
+  * <img src="<img src="https://www.pivotaltracker.com/help/kb_assets/storystates.png">
 
 ***
 ### Statuses Continued
