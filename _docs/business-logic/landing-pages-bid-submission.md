@@ -22,6 +22,11 @@ The
 <div style="width:95%;height=95%"; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:90%;height=90%" src="https://lucid.app/documents/embeddedchart/f45d427d-740d-4241-9c5c-e670d8aeb3b1" id="R8wNAV.UpBU-"></iframe></div>
 
 ### 5 Ws
+- Who:  Vendors submitting Bids will use the Landing Pages to submit Bids the Coordinators sent to them
+- What: Landing Pages for Vendor management functions for Bid Submits and Pickup Reports
+- Where:  Force.com Sites in Salesforce hosted as Public facing sites
+- When:  Vendors will utilize when they receive a Bid Submission Request or a Pick Up Report submit request.
+- Why:  We needed a way to get input from Vendors that integrate directly with Salesforce to facilitate the Bids for customers Room requests.
 
 ### Technical Details
 #### Salesforce Objects
