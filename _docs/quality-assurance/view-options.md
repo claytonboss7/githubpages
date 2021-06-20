@@ -30,7 +30,6 @@ The query is doing the following:
 
 | Field/Value | Description |
 | --- | --- |
-| Housing__c = housingId | Passed in from the page, can be replaced with ID in Quotes ex: 'a01ae3030292WW3'|
 | Status__c != 'Deactivated Bid' | Bid status can not include Deactivated Bid
 | Housing__r.Options_sent_to_client__c != NULL | Bid Stay value for 'Options Sent to Client' has to have a value
 |Include_in_options__c = TRUE OR Include_in_option_cover_sheet__c = TRUE | Values for one of the two fields listed has to be true to make it return
@@ -39,7 +38,6 @@ The query is doing the following:
 
 | Field | When is it set? |
 | --- | --- |
-| Housing__c | Handled in the dashboard and assigned to the bid when created. |
 | Status__c != 'Deactivated Bid' | Bid status can not include Deactivated Bid. |
 | Housing__r.Options_sent_to_client__c != NULL | With any of the Send Options buttons, this should stamp after it sends. |
 | Include_in_options__c OR Include_in_option_cover_sheet__c | These are set in the dashboard on the Bid tab.  Also has logic where if the `Option__c` field has a number in it to set this to true. |
