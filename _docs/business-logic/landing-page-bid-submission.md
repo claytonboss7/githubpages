@@ -15,7 +15,7 @@ When a stay is being worked by a Coordinator, they need to choose a Vendor and h
 - Save Vendor note as Concession
 - Update Rate on Room Type Housing Records
 - Save Journal entry related to Bid Submit
-- Create Bid Memorialization 
+- Create Bid Memorialization PDF
 
 ## Process Flow
 

@@ -7,24 +7,19 @@ badges:
  - type: danger
    tag: danger-badge
 ---
-# QA / Exception Report
-
-<br/>
-
-## View Options for Stay 
+# View Options for Stay 
 
 **Details:** When the options are sent to the client from the dashboard, there are a few criteria for the data for it to show the client.  This report has the fields from the query so we can figure out what condition it didn't meet.
 <br/>
 
 **Usage** Report can be used to troubleshoot options and if removing criteria shows the Stay we are investigating.
 
-### Details
+## Details
  * **Scheduled:**  Run on Demand
   * **Filter**: 
 ```
       FROM Bid__c
       WHERE
-        Housing__c = :housingId
         AND Status__c != 'Deactivated Bid'
         AND Housing__r.Options_sent_to_client__c != NULL
         AND (Include_in_options__c = TRUE
@@ -50,12 +45,12 @@ The query is doing the following:
 | Include_in_options__c OR Include_in_option_cover_sheet__c | These are set in the dashboard on the Bid tab.  Also has logic where if the `Option__c` field has a number in it to set this to true. |
 
 
-### Link
+## Link
 [Option Details Report (edit filters to troubleshoot)](https://roadrebel.lightning.force.com/lightning/r/Report/00O3w000005zK6TEAU/edit)
 
 <br/>
 
-### Screenshots 
+## Screenshots 
   Viewing Options in Community:
   <br/>
   ![DupeReport](https://claytonboss7.github.io/voyajerwiki/assets/img/options.gif)
