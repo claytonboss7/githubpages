@@ -16,7 +16,7 @@ Business Processes Involved:
 - Save Journal entry related to Bid Submit
 - Create Bid Memorialization 
 ### Process Flow
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/f45d427d-740d-4241-9c5c-e670d8aeb3b1" id="R8wNAV.UpBU-"></iframe></div>
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" src="https://lucid.app/documents/embeddedchart/f45d427d-740d-4241-9c5c-e670d8aeb3b1" id="R8wNAV.UpBU-"></iframe></div>
 
 ### 5 Ws
 
