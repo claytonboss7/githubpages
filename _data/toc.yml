@@ -17,6 +17,8 @@
     - title: "User Guide - Business Logic"
       url: "docs/business-logic"
       children:
+        - title: Landing Pages
+          url: "docs/business-logic/landing-pages"
         - title: Coordinator Emails
           url: "docs/business-logic/coordinator-emails"
         - title: "Trace Creation"
