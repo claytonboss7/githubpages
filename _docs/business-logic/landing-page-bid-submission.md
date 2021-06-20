@@ -18,7 +18,7 @@ When a stay is being worked by a Coordinator, they need to choose a Vendor and h
 - Create Bid Memorialization 
 
 ## Process Flow
-<div style="width:95%;height=95%"; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:90%;height=90%" src="https://lucid.app/documents/embeddedchart/f45d427d-740d-4241-9c5c-e670d8aeb3b1" id="R8wNAV.UpBU-"></iframe></div>
+<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embeddedchart/f45d427d-740d-4241-9c5c-e670d8aeb3b1" id="VWGN5N_fVjcK"></iframe></div>
 
 ## 5 Ws
 - Who:  Vendors submitting Bids will use the Landing Pages to submit Bids the Coordinators sent to them
