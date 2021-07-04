@@ -4,7 +4,6 @@ description: Diagrams and Documentation for Pickup Report Landing Page.
 ---
 
 # Troubleshooting Landing Pages
-
 ## Reports
 ### [UUIDs for Bids](https://roadrebel.lightning.force.com/lightning/r/Report/00O3w0000052BBOEA2/view?queryScope=userFolders)
 View the Bids that were modified Today, and their associated Landing Page URLs.  These URLs are in the Bid Request Email and the Pickup Report email, and this report would be for reference purposes only.  There is no expectations that users would use this report, only Admins.  The UUID for the Bid is generated at Bid creation and it an identifier used as an alternate to the Bid ID so that we can group multiple objects that potentially match on this UUID if we have more complex entries to the landing page.
