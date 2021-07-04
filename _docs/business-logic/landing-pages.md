@@ -12,4 +12,5 @@ To Submit Bids and Submit Pick Up reports without needing to authenticate into t
 Landing Page for Bid Submissions from Vendors for Hotel Stays
 ### [Pickup Report Landing Page](landing-page-pickup-report)
 Landing Page for Pickup Report Submissions from Vendors for Hotel Stays
-
+### [Troubleshooting](landing-page-troubleshooting)
+Reports, resources, and details related to the landing pages and their current status.
