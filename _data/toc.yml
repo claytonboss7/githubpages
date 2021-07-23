@@ -62,3 +62,10 @@
               url: "docs/backups#data"
         - title: "Project Management"
           url: "docs/documentation/project-management"
+    - title: "Project Management" 
+      url: "docs/documentation/project-management"
+      children:
+        - title: "Sprint Board"
+          url: "https://www.pivotaltracker.com/n/projects/2468765"
+        - title: "Story Cycling"
+          url: "https://www.pivotaltracker.com/reports/v2/projects/2468765/cycle_time"
