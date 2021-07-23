@@ -67,5 +67,6 @@
       children:
         - title: "Sprint Board"
           url: "https://www.pivotaltracker.com/n/projects/2468765"
+          target: "_blank"
         - title: "Story Cycling"
           url: "https://www.pivotaltracker.com/reports/v2/projects/2468765/cycle_time"
