@@ -12,3 +12,4 @@ description: Details about our approach to Project Management for Voyajer
 [Pivotal Tracker](pivotal-tracker)
 
 
+<iframe src="https://www.pivotaltracker.com/reports/v2/projects/2468765/cycle_time"/>
