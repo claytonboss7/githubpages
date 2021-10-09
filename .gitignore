@@ -1,4 +1,8 @@
-vendor
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
 _site
 Gemfile.lock
-assets/img/view-options-report.gif
+node_modules
