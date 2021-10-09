@@ -17,7 +17,7 @@
 title: Voyajer Wiki
 email: claytonboss@roadrebel.com  
 author: Clay Boss
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 
 description: > # this means to ignore newlines until "baseurl:"
   A central repository for knowledge base articles and information about the Voyajer platform and the business processes and technical details behind the App.
