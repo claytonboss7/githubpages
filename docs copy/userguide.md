@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Configuration
+title: User Guide
 nav_order: 2
 ---
 
-# Configuration
+# Voyajer User Guide
 {: .no_toc }
 
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
+The user guide is broken down into the functional areas of the dashboards, broken down by service and then by tabs inside of the Service Dashboard.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -23,7 +23,7 @@ Just the Docs has some specific configuration parameters that can be defined in 
 View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
 
 
-## Site logo
+## Housing Dashboard
 
 ```yaml
 # Set a path/url to a logo that will be displayed instead of the title
@@ -136,8 +136,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
 
 ## Google Analytics
 
