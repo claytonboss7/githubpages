@@ -31,5 +31,4 @@ Files would need to get into the repository directly from Github.com or through 
 2. If needed request access to be a contributor, otherwise just be logged in with your current Github username.
 
 3. Files can be created or edited directly in the Github UI, and the changes saved and committed to the KB.
-
-3a. [img]/images in mardown
+![](assets/images/addfilewiki.jpg)
