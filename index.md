@@ -26,4 +26,4 @@ Files would need to get into the repository directly from Github.com or through 
 
 ### Quick start: Use Github.com UI to Add Entry
 
-1. Navigate to the repository URL and into the "docs" folder.
+1. Navigate to the repository URL and [into the "docs" folder](https://github.com/sfdcboss/voyajerwiki/tree/gh-pages/docs).
