@@ -1,0 +1,12 @@
+---
+layout: default
+title: APXT_CongaSign__apxt_ldclient
+parent: staticresources
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>text/javascript</contentType>
+    <description>Launch Darkly 2.4.0</description>
+</StaticResource>```

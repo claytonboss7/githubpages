@@ -1,0 +1,12 @@
+---
+layout: default
+title: DataCloudCompanyMatch
+parent: cleanDataServices
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<CleanDataService xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Data.com Companies</description>
+    <masterLabel>Data.com Companies</masterLabel>
+    <matchEngine>CompanyMatchMatchEngine</matchEngine>
+</CleanDataService>```

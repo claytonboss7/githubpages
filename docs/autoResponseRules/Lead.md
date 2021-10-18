@@ -1,0 +1,8 @@
+---
+layout: default
+title: Lead
+parent: autoResponseRules
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata"/>```

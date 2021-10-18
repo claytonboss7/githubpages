@@ -1,0 +1,14 @@
+---
+layout: default
+title: SiteRegister
+parent: pages
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Default Salesforce Sites User Registration page</description>
+    <label>SiteRegister</label>
+</ApexPage>```

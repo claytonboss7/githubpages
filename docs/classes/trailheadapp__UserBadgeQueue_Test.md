@@ -1,0 +1,16 @@
+---
+layout: default
+title: trailheadapp__UserBadgeQueue_Test
+parent: classes
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>44.0</apiVersion>
+    <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>7</minorNumber>
+        <namespace>trailheadapp</namespace>
+    </packageVersions>
+    <status>Active</status>
+</ApexClass>```

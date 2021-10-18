@@ -1,0 +1,21 @@
+---
+layout: default
+title: APXTConga4__KeyValue
+parent: classes
+---
+
+```/*
+This file is generated and isn't the actual source code for this
+managed global class.
+This read-only file shows the class's global constructors,
+methods, variables, and properties.
+To enable code to compile, all methods return null.
+*/
+global class KeyValue implements System.Comparable {
+    global KeyValue() {
+
+    }
+    global Integer compareTo(Object compareTo) {
+        return null;
+    }
+}```

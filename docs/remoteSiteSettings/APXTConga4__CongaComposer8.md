@@ -1,0 +1,13 @@
+---
+layout: default
+title: APXTConga4__CongaComposer8
+parent: remoteSiteSettings
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Click Save and close this window.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://composer.congamerge.com</url>
+</RemoteSiteSetting>```

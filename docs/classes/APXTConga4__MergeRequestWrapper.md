@@ -1,0 +1,16 @@
+---
+layout: default
+title: APXTConga4__MergeRequestWrapper
+parent: classes
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>43.0</apiVersion>
+    <packageVersions>
+        <majorNumber>8</majorNumber>
+        <minorNumber>174</minorNumber>
+        <namespace>APXTConga4</namespace>
+    </packageVersions>
+    <status>Active</status>
+</ApexClass>```

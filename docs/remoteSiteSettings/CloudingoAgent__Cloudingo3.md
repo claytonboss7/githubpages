@@ -1,0 +1,12 @@
+---
+layout: default
+title: CloudingoAgent__Cloudingo3
+parent: remoteSiteSettings
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://ws3.cloudingo.com</url>
+</RemoteSiteSetting>```

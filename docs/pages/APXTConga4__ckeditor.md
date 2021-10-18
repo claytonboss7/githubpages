@@ -1,0 +1,14 @@
+---
+layout: default
+title: APXTConga4__ckeditor
+parent: pages
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>44.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>VF page for Conga Email</description>
+    <label>Conga Email page</label>
+</ApexPage>```

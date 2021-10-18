@@ -1,0 +1,10 @@
+---
+layout: default
+title: IsvHammer
+parent: settings
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<IsvHammerSettings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <enableIsvHammerSubIsOptedOut xsi:nil="true"/>
+</IsvHammerSettings>```

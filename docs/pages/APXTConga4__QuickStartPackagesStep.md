@@ -1,0 +1,24 @@
+---
+layout: default
+title: APXTConga4__QuickStartPackagesStep
+parent: pages
+---
+
+```<apex:page controller="APXTConga4.BaseStepController" sidebar="false">
+	<apex:includeLightning />
+	<script type="text/javascript">
+		var ns = "{!JSENCODE(namespace)}";
+        if(ns == undefined || ns.length == 0) {
+            ns = "c";
+        }
+        $Lightning.use(ns+":AppForVisualForcePages", function() {
+            $Lightning.createComponent(ns+":QuickStartPackagesStep", {
+                inVFPage: "true",
+                theme: "{!JSENCODE($CurrentPage.parameters.theme)}"
+            },
+            "lightning",
+            function(cmp) {});
+        });
+	</script>
+	<div id="lightning" />
+</apex:page>```

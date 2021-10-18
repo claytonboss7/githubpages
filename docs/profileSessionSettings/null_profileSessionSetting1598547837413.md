@@ -1,0 +1,15 @@
+---
+layout: default
+title: null_profileSessionSetting1598547837413
+parent: profileSessionSettings
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<ProfileSessionSetting xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <externalCommunityUserIdentityVerif>false</externalCommunityUserIdentityVerif>
+    <forceLogout>false</forceLogout>
+    <profile xsi:nil="true"/>
+    <sessionPersistence>false</sessionPersistence>
+    <sessionTimeout>0</sessionTimeout>
+    <sessionTimeoutWarning>false</sessionTimeoutWarning>
+</ProfileSessionSetting>```

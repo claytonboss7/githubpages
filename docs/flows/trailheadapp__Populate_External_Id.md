@@ -1,0 +1,13 @@
+---
+layout: default
+title: trailheadapp__Populate_External_Id
+parent: flows
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>Updated External Id if null.</description>
+    <label>Populate External Id</label>
+    <processType>Workflow</processType>
+</Flow>```

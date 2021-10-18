@@ -1,0 +1,15 @@
+---
+layout: default
+title: Accounting
+parent: roles
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Accounting</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Admin</parentRole>
+</Role>```

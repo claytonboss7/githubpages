@@ -1,0 +1,13 @@
+---
+layout: default
+title: APXTConga4__ComposerSolutionReportAdder
+parent: pages
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>42.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <label>Composer Solution Report Picker</label>
+</ApexPage>```

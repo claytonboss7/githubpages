@@ -1,0 +1,12 @@
+---
+layout: default
+title: APXTConga4__Conga_Solution_Collection
+parent: tabs
+---
+
+```<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Conga Solution Collection</label>
+    <motif>Custom267: TV Widescreen</motif>
+    <page>APXTConga4__Collection</page>
+</CustomTab>```
