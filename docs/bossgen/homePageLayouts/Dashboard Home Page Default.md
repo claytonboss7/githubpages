@@ -1,0 +1,33 @@
+---
+layout: default
+title: Dashboard Home Page Default
+parent: homePageLayouts
+---
+# Metadata Type
+homePageLayouts
+
+
+# Filename 
+Dashboard Home Page Default
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <narrowComponents>standard-StandardSearch</narrowComponents>
+    <narrowComponents>standard-CreateNew</narrowComponents>
+    <narrowComponents>standard-RecentItems</narrowComponents>
+    <narrowComponents>standard-UsefulLinks</narrowComponents>
+    <narrowComponents>standard-MessagesAndAlerts</narrowComponents>
+    <wideComponents>standard-Dashboard</wideComponents>
+    <wideComponents>standard-Tasks</wideComponents>
+    <wideComponents>standard-Calendar</wideComponents>
+</HomePageLayout>
+```
+
+
+# Last Modified
+
+
+# Usage

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blockchain
+parent: settings
+---
+# Metadata Type
+settings
+
+
+# Filename 
+Blockchain
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<BlockchainSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableBcp>false</enableBcp>
+    <enableBcpCoin>false</enableBcpCoin>
+</BlockchainSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

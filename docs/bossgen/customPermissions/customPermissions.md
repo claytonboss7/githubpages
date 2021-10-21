@@ -1,0 +1,10 @@
+---
+layout: default
+title: customPermissions
+permalink: docs/customPermissions
+has_children: true
+---
+
+
+# Clays Generator
+

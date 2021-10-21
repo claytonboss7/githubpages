@@ -1,0 +1,27 @@
+---
+layout: default
+title: Voyajer1
+parent: siteDotComSites
+---
+# Metadata Type
+siteDotComSites
+
+
+# Filename 
+Voyajer1
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<SiteDotCom xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Voyajer</label>
+    <siteType>ChatterNetworkPicasso</siteType>
+</SiteDotCom>
+```
+
+
+# Last Modified
+
+
+# Usage

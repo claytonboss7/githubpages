@@ -1,0 +1,35 @@
+---
+layout: default
+title: MyDomain
+parent: settings
+---
+# Metadata Type
+settings
+
+
+# Filename 
+MyDomain
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<MyDomainSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canOnlyLoginWithMyDomainUrl>false</canOnlyLoginWithMyDomainUrl>
+    <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
+    <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
+    <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
+    <myDomainName>roadrebel</myDomainName>
+    <myDomainSuffix>MySalesforceLimited</myDomainSuffix>
+    <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
+    <useEdge>false</useEdge>
+    <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>
+    <useStabilizedSandboxMyDomainHostnames>true</useStabilizedSandboxMyDomainHostnames>
+</MyDomainSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

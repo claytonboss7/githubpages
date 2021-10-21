@@ -1,0 +1,28 @@
+---
+layout: default
+title: PartyDataModel
+parent: settings
+---
+# Metadata Type
+settings
+
+
+# Filename 
+PartyDataModel
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<PartyDataModelSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableAutoSelectIndividualOnMerge>false</enableAutoSelectIndividualOnMerge>
+    <enableConsentManagement>true</enableConsentManagement>
+    <enableIndividualAutoCreate>false</enableIndividualAutoCreate>
+</PartyDataModelSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

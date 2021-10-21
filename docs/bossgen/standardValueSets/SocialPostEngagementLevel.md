@@ -1,0 +1,46 @@
+---
+layout: default
+title: SocialPostEngagementLevel
+parent: standardValueSets
+---
+# Metadata Type
+standardValueSets
+
+
+# Filename 
+SocialPostEngagementLevel
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Resolved</fullName>
+        <default>false</default>
+        <label>Resolved</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted</fullName>
+        <default>false</default>
+        <label>Submitted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reviewed</fullName>
+        <default>false</default>
+        <label>Reviewed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commented</fullName>
+        <default>false</default>
+        <label>Commented</label>
+    </standardValue>
+</StandardValueSet>
+```
+
+
+# Last Modified
+
+
+# Usage

@@ -1,0 +1,27 @@
+---
+layout: default
+title: CityTrigger
+parent: triggers
+---
+# Metadata Type
+triggers
+
+
+# Filename 
+CityTrigger
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTrigger xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>46.0</apiVersion>
+    <status>Active</status>
+</ApexTrigger>
+```
+
+
+# Last Modified
+
+
+# Usage
