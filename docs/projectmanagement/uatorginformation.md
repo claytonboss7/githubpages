@@ -25,39 +25,13 @@ N/A
 
 ## Details
 ### Purpose
-The sandbox 
-```
 
-```
-
-```
-
-```
-d
-```
-
-```
-s be
-```
-
-```
-eprod
-```
- app
-```
- inform
-```
-
+The sandbox is used primarly for UAT testing
 ### Type
-The 
-```
-PreProd
-```
- sandbox is a DEVELOPER PRO sandbox.
+
+The ```PreProd``` sandbox is a DEVELOPER PRO sandbox.
 
 ### Data
-
-
 
 {: .no_toc }
 
