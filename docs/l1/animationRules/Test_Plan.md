@@ -2,6 +2,7 @@
 layout: default
 title: Test_Plan
 parent: animationRules
+nav_order: 1
 ---
 # Metadata Type
 animationRules

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: User Guide
+title: Analytics
 nav_order: 1
-permalink: https://www.pivotaltracker.com/reports/v2/projects/2468765/overview
+permalink: docs/analytics
 ---
+
+<iframe src="https://pivotaltracker.com">

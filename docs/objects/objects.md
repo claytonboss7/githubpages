@@ -1,7 +1,7 @@
 ---
 layout: default
-title: animationRules
-permalink: docs/animationRules
+title: objects
+permalink: docs/objects
 has_children: true
 ---
 
