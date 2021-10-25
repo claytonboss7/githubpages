@@ -25,7 +25,7 @@ This diagram should cover all system connections at a high level without getting
 
 ## Details
 
-### Sandbox Breakdown
+### Sandbox/Org Breakdown
 
 The diagram above shows orgs of a few different types which are listed in the following table
 
@@ -33,3 +33,4 @@ The diagram above shows orgs of a few different types which are listed in the fo
 |:---------------|:---------------------|:-------------------------|
 | rrdev | QA testing org where features are tested | DEVELOPER_PRO |
 | preprod | UAT testing org where we perform UAT in addition to staging for Production deployments | Partial |
+| Hotfix Sandbox | A sandbox created at the time of a bug being reported, direct path to Production.  Does not follow the same rrdev preprod path | Partial |

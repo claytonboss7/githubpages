@@ -223,23 +223,6 @@ Historical_Production__c
     <type>Currency</type>
 </CustomField>
 ```
-### Account__c
-
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Account__c</fullName>
-    <deleteConstraint>Restrict</deleteConstraint>
-    <externalId>false</externalId>
-    <label>Account</label>
-    <referenceTo>Account</referenceTo>
-    <relationshipName>Productions</relationshipName>
-    <required>true</required>
-    <trackHistory>false</trackHistory>
-    <trackTrending>false</trackTrending>
-    <type>Lookup</type>
-</CustomField>
-```
 ### Cities__c
 
 ```

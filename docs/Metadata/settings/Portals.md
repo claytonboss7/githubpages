@@ -1,0 +1,28 @@
+---
+layout: default
+title: Portals
+parent: settings
+grand_parent: Metadata
+---
+# Metadata Type
+settings
+
+
+# Filename 
+Portals
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<PortalsSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <clickjackSSPLoginPage>false</clickjackSSPLoginPage>
+    <redirectPortalLoginToHttps>false</redirectPortalLoginToHttps>
+</PortalsSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

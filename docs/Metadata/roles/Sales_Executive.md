@@ -1,0 +1,32 @@
+---
+layout: default
+title: Sales_Executive
+parent: roles
+grand_parent: Metadata
+---
+# Metadata Type
+roles
+
+
+# Filename 
+Sales_Executive
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Sales Executive</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Sales_Manager</parentRole>
+</Role>
+```
+
+
+# Last Modified
+
+
+# Usage

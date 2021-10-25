@@ -25,6 +25,10 @@ Documents day by day the expected events in an Agile 2 week sprint.  Key ceremon
 
 ## Details
 
-| Day of Week | Action | Purpose | 
+| Sprint Event | Day of Week | Purpose | Attendees
 |-----------------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Additional GT Fees|Additional_GT_Fees__c|Multipicklist (
+| Stand Up | Daily | What Yesterday? What Today?  Any Blockers? | All
+| Sprint Planning | Monday | Agreed upon work from top of backlog moved into Current.  All stories *must* be groomed prior to that (at least enough stories to fill up a week) | All
+| Backlog Refinement | Thursday | Work in the backlog is inspected to make sure all details needed are in the story. | PM / Lead Dev
+| QA Deployment | Thursday - Week 1 | Work that has been accumulating should be released to QA. | Lead Dev
+| Staging Deployment | Thursday - Week 2 | Work that has been accepted would be deployed to the PreProd/UAT Org | Lead Dev

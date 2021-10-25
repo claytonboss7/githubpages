@@ -1,0 +1,28 @@
+---
+layout: default
+title: Test_Case__c
+parent: tabs
+grand_parent: Metadata
+---
+# Metadata Type
+tabs
+
+
+# Filename 
+Test_Case__c
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <motif>Custom21: Computer</motif>
+</CustomTab>
+```
+
+
+# Last Modified
+
+
+# Usage

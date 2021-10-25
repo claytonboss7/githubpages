@@ -1,0 +1,28 @@
+---
+layout: default
+title: Name
+parent: settings
+grand_parent: Metadata
+---
+# Metadata Type
+settings
+
+
+# Filename 
+Name
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<NameSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableMiddleName>false</enableMiddleName>
+    <enableNameSuffix>true</enableNameSuffix>
+</NameSettings>
+```
+
+
+# Last Modified
+
+
+# Usage
