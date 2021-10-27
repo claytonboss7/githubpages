@@ -20,7 +20,7 @@ url: "https://sfdcboss.github.io" # the base hostname & protocol for your site, 
 logo: "/assets/images/rrlogo.png"
 
 permalink: pretty
-exclude: ["node_modules/","docs copy", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
+exclude: ["docs/Metadata/","node_modules/","docs copy", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
 , "docs/tests/"
 ]
 

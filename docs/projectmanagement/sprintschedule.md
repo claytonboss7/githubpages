@@ -30,5 +30,7 @@ Documents day by day the expected events in an Agile 2 week sprint.  Key ceremon
 | Stand Up | Daily | What Yesterday? What Today?  Any Blockers? | All
 | Sprint Planning | Monday | Agreed upon work from top of backlog moved into Current.  All stories *must* be groomed prior to that (at least enough stories to fill up a week) | All
 | Backlog Refinement | Thursday | Work in the backlog is inspected to make sure all details needed are in the story. | PM / Lead Dev
-| QA Deployment | Thursday - Week 1 | Work that has been accumulating should be released to QA. | Lead Dev
-| Staging Deployment | Thursday - Week 2 | Work that has been accepted would be deployed to the PreProd/UAT Org | Lead Dev
+| Deployment to "QA" | Thursday - Week 1 | Work that has been accumulating should be released to QA. | Lead Dev
+| Deployment to "PreProd" | Thursday - Week 2 | Work that has been accepted would be deployed to the PreProd/UAT Org | Lead Dev
+| Retro | End of Sprint | Good, Bad and the Ugly | All
+| Cutoff for QA | Thursday - Week 1 | This is helpful to deploy in bunches rather than rapid fire all of them inddividually.  Is flexible but the idea is there would be a process for deployment that would group what's ready at the halfway and end of the sprint, and deploy accordingly. | All

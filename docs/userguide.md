@@ -17,5 +17,15 @@ The user guide is broken down into the functional areas of the dashboards, broke
 1. TOC
 {:toc}
 
----
+## Scope
 
+## Production - Details
+Detail Screen
+## Production Associations
+Detail Screen
+
+## Housing Dashboard - Details
+## Housing Dashboard - Details
+## Housing Dashboard - Details
+## Housing Dashboard - Details
+## Housing Dashboard - Details
