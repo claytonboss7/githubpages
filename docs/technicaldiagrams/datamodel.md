@@ -21,7 +21,7 @@ This diagram should cover all system connections at a high level without getting
 
 ## Diagram
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxsdX8yZaMesgZkEIIrsGEjF1u0PFCGKxKbVekg_VA97HWdRT7WdK_358fNZfv7ow2uKABj0O3lNLw/embed?start=true&loop=false&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxsdX8yZaMesgZkEIIrsGEjF1u0PFCGKxKbVekg_VA97HWdRT7WdK_358fNZfv7ow2uKABj0O3lNLw/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Details
 
