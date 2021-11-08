@@ -4,8 +4,7 @@ title: Report Component
 parent: User Guide
 ---
 
-# User Guide
-## Report Component
+# Report Component
 {: .no_toc }
 
 
