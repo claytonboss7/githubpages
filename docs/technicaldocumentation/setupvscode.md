@@ -16,6 +16,8 @@ Covers the installation of VSCode specifically for contributing to the wiki, not
 3. Install and Clone Repository (contains documentation)
 4. Submit documentation change for Publishing
 
+*Note:  This is the alternative to doing edits directly to the files on Github.com and gives flexibility to view previews and many other things.
+
 ## Details
 
 ### Signup for Github

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Housing Dashboard
-parent: User Guide
+has_children: true
 ---
 
 # Housing Dashboard

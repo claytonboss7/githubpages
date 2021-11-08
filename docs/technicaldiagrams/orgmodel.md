@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Salesforce Org Model
+title: Development Org Model
 parent: Technical Diagrams
 ---
 
