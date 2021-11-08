@@ -1,6 +1,6 @@
 ---
 layout: default
-visible: false
+nav_exclude: false
 ---
 
 # Thank You
