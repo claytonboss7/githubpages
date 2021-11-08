@@ -21,9 +21,9 @@ The reportComponent and how to use on Lightning Pages.   Includes steps to setup
     - If the Account.Id field is not a filter (top level Account filtering in Report), filter field must be specified in Lightning Page Editor
         - Top Level Account Filter means in the List of Objects in the Field Selections object it is the "Id" field from the "Account" object fields
         - ![](https://sfdcboss.github.io/voyajerwiki/assets/images/reportComponentEx1.jpg)
-        - ![](../assets/images/reportComponentEx2.jpg)
+        - ![](https://sfdcboss.github.io/voyajerwiki/assets/images/reportComponentEx2.jpg)
 - Drag reportComponent onto Lightning Record Page and click once to get configuration options:
-        - ![](../assets/images/reportComponentOverview.jpg)
+        - ![](https://sfdcboss.github.io/voyajerwiki/assets/images/reportComponentOverview.jpg)
 
 - Save Lightning Record Page and confirm expected Report shows with filtering
 - A Summary Report will show the details in groupings
