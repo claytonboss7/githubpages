@@ -19,7 +19,7 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 - The flow is similar with the exception of chores don't have an Accept/Reject stage prior to being Done. 
   * This is because chores don't follow the QA process which is the reason Accept/Reject would be used.
 
-<img src="<img src="https://claytonboss7.github.io/voyajerwiki/assets/trackers_workflow_1@1x.png">
+<img src="<img src="https://sfdcboss.github.io/voyajerwiki/assets/trackers_workflow_1@1x.png">
 
 ***
 
@@ -29,7 +29,7 @@ Pivotal Tracker encourages a practical **agile software development** process :w
 
 - The below diagram has information about each step and intended audience and actions.
 
-  * <img src="<img src="https://claytonboss7.github.io/voyajerwiki/assets/storystates.png">
+  * <img src="<img src="https://sfdcboss.github.io/voyajerwiki/assets/storystates.png">
 
 ***
 ### Statuses Continued
