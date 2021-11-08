@@ -7,11 +7,7 @@ parent: User Guide
 # Report Component
 {: .no_toc }
 
-
 A component that allows for embedding of reports on Account (currently only Account) and the specification of the report data to display.   Also has a second field for filtering if the Account Id you need to use is on a separate object.
-
-{: .fs-6 .fw-300 }
-
 ## Scope
 The reportComponent and how to use on Lightning Pages.   Includes steps to setup and description of what it expects for configuration inputs.  Does not cover Lightning Page Editor assignments and Activation, just component configuration.
 
