@@ -1,5 +1,6 @@
 ---
 layout: default
+visible: false
 ---
 
 # Thank You
