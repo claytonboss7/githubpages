@@ -4,7 +4,8 @@ title: Report Component
 parent: User Guide
 ---
 
-# Report Component
+# User Guide
+## Report Component
 {: .no_toc }
 
 
@@ -15,7 +16,7 @@ A component that allows for embedding of reports on Account (currently only Acco
 ## Scope
 The reportComponent and how to use on Lightning Pages.   Includes steps to setup and description of what it expects for configuration inputs.  Does not cover Lightning Page Editor assignments and Activation, just component configuration.
 
-## User Details
+## Usage Details
 - Create report to be displayed on a per Account basis
     - Any report can be used as long as it contains filter for Account Id
     - If the Account.Id field is not a filter (top level Account filtering in Report), filter field must be specified in Lightning Page Editor
