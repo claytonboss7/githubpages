@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Dashboards
+title: Misc
 has_children: true
 parent: User Guide
 nav_order: 2
 ---
 
-# Dashboards
+# Miscellaneous

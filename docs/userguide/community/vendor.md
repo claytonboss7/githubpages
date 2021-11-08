@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Housing Dashboard
-parent: Dashboards
+title: Vendor
+parent: Community
 grand_parent: User Guide
 ---
 
@@ -24,3 +24,9 @@ The user guide is broken down into the functional areas of the dashboards, broke
 Detail Screen
 ### Production Associations
 Detail Screen
+
+### Housing Dashboard - Details
+### Housing Dashboard - Details
+### Housing Dashboard - Details
+### Housing Dashboard - Details
+### Housing Dashboard - Details

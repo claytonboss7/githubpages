@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Submit an Issue
-nav_order: 99
+nav_order: 400
 ---
 
 # Submit an Issue
@@ -41,6 +41,3 @@ nav_order: 99
 <input type="submit" name="submit">
 
 </form>
-
-// community overview and hotel contracting 
-// 

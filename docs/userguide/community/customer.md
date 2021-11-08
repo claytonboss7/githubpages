@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Contracts (Conga)
-parent: User Guide
+title: Customer
+parent: Community
+grand_parent: User Guide
 ---
 
 # Housing Dashboard

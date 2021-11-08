@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Trace Dashboard
+title: Community
+has_children: true
 parent: User Guide
+nav_order: 2
 ---
 
 # Housing Dashboard

@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Community - Customer
+title: Conga
+has_children: true
 parent: User Guide
-nav_order: 4
+nav_order: 2
 ---
 
 # Housing Dashboard

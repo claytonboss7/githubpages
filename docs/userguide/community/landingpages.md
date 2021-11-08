@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Community - Vendor
-parent: User Guide
-nav_order: 3
+title: Landing Pages
+parent: Community
+grand_parent: User Guide
 ---
 
 # Housing Dashboard

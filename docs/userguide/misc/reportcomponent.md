@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Report Component
-parent: User Guide
+parent: Misc
+grand_parent: User Guide
 ---
 
 # Report Component
