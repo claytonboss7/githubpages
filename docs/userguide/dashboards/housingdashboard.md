@@ -20,7 +20,28 @@ The user guide is broken down into the functional areas of the dashboards, broke
 
 ## Scope
 
-### Production - Details
-Detail Screen
-### Production Associations
-Detail Screen
+### Housing Details
+#### Scope
+#### User Details
+#### Technical Details
+#### Resources
+### Itinerary Details
+#### Scope
+#### User Details
+#### Technical Details
+#### Resources
+### Stay Details
+#### Scope
+#### User Details
+#### Technical Details
+#### Resources
+### Bid Details
+#### Scope
+#### User Details
+#### Technical Details
+#### Resources
+### Contracting Details
+#### Scope
+#### User Details
+#### Technical Details
+#### Resources
