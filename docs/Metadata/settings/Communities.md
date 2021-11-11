@@ -1,0 +1,47 @@
+---
+layout: default
+title: Communities
+parent: settings
+grand_parent: Metadata
+---
+# Metadata Type
+settings
+
+
+# Filename 
+Communities
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunitiesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applyLoginPageTypeToEmbeddedLogin>false</applyLoginPageTypeToEmbeddedLogin>
+    <blockEmbeddedLoginUnknownURLRedirect>false</blockEmbeddedLoginUnknownURLRedirect>
+    <canModerateAllFeedPosts>false</canModerateAllFeedPosts>
+    <embeddedVisualforcePages>false</embeddedVisualforcePages>
+    <enableCommunityWorkspaces>true</enableCommunityWorkspaces>
+    <enableCspContactVisibilityPref>false</enableCspContactVisibilityPref>
+    <enableCspNotesOnAccConPref>true</enableCspNotesOnAccConPref>
+    <enableExternalAccHierPref>false</enableExternalAccHierPref>
+    <enableGuestPermDisOptOutCruc>false</enableGuestPermDisOptOutCruc>
+    <enableGuestRecordReassignOrgPref>true</enableGuestRecordReassignOrgPref>
+    <enableGuestSecurityOptOutCruc>false</enableGuestSecurityOptOutCruc>
+    <enableGuvSecurityOptOutPref>false</enableGuvSecurityOptOutPref>
+    <enableInviteChatterGuestEnabled>true</enableInviteChatterGuestEnabled>
+    <enableNetPortalUserReportOpts>false</enableNetPortalUserReportOpts>
+    <enableNetworksEnabled>true</enableNetworksEnabled>
+    <enableOotbProfExtUserOpsEnable>true</enableOotbProfExtUserOpsEnable>
+    <enablePRMAccRelPref>false</enablePRMAccRelPref>
+    <enablePowerCustomerCaseStatus>false</enablePowerCustomerCaseStatus>
+    <enablePreventBadgeGuestAccess>true</enablePreventBadgeGuestAccess>
+    <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>
+    <enableUnsupportedBrowserModalPref>true</enableUnsupportedBrowserModalPref>
+</CommunitiesSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

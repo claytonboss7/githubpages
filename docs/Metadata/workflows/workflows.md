@@ -1,0 +1,11 @@
+---
+layout: default
+title: workflows
+permalink: docs/workflows
+has_children: true
+parent: Metadata
+---
+
+
+# Clays Generator
+

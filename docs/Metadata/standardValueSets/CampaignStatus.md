@@ -1,0 +1,47 @@
+---
+layout: default
+title: CampaignStatus
+parent: standardValueSets
+grand_parent: Metadata
+---
+# Metadata Type
+standardValueSets
+
+
+# Filename 
+CampaignStatus
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aborted</fullName>
+        <default>false</default>
+        <label>Aborted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planned</fullName>
+        <default>true</default>
+        <label>Planned</label>
+    </standardValue>
+</StandardValueSet>
+```
+
+
+# Last Modified
+
+
+# Usage

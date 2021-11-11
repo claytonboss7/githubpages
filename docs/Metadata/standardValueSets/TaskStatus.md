@@ -1,0 +1,39 @@
+---
+layout: default
+title: TaskStatus
+parent: standardValueSets
+grand_parent: Metadata
+---
+# Metadata Type
+standardValueSets
+
+
+# Filename 
+TaskStatus
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>
+```
+
+
+# Last Modified
+
+
+# Usage

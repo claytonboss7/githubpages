@@ -1,0 +1,35 @@
+---
+layout: default
+title: LeadConfig
+parent: settings
+grand_parent: Metadata
+---
+# Metadata Type
+settings
+
+
+# Filename 
+LeadConfig
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<LeadConfigSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesEnableLeadConvertDefaultSubjectBlankTaskCreation>false</doesEnableLeadConvertDefaultSubjectBlankTaskCreation>
+    <doesHideOpportunityInConvertLeadWindow>false</doesHideOpportunityInConvertLeadWindow>
+    <doesPreserveLeadStatus>false</doesPreserveLeadStatus>
+    <doesSelectNoOpportunityOnConvertLead>false</doesSelectNoOpportunityOnConvertLead>
+    <doesTrackHistory>false</doesTrackHistory>
+    <enableConversionsOnMobile>true</enableConversionsOnMobile>
+    <enableOrgWideMergeAndDelete>true</enableOrgWideMergeAndDelete>
+    <shouldLeadConvertRequireValidation>true</shouldLeadConvertRequireValidation>
+    <shouldSendNotificationEmailWhenLeadOwnerUpdatesViaApexInLEX>false</shouldSendNotificationEmailWhenLeadOwnerUpdatesViaApexInLEX>
+</LeadConfigSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

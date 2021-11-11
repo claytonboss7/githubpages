@@ -1,0 +1,37 @@
+---
+layout: default
+title: CampaignMemberStatus
+parent: standardValueSets
+grand_parent: Metadata
+---
+# Metadata Type
+standardValueSets
+
+
+# Filename 
+CampaignMemberStatus
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+</StandardValueSet>
+```
+
+
+# Last Modified
+
+
+# Usage

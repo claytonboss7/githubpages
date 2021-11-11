@@ -1,0 +1,28 @@
+---
+layout: default
+title: EmployeeUser
+parent: settings
+grand_parent: Metadata
+---
+# Metadata Type
+settings
+
+
+# Filename 
+EmployeeUser
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<EmployeeUserSettings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <emailEncoding xsi:nil="true"/>
+    <profile xsi:nil="true"/>
+</EmployeeUserSettings>
+```
+
+
+# Last Modified
+
+
+# Usage

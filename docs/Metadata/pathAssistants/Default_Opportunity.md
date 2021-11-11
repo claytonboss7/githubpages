@@ -1,0 +1,31 @@
+---
+layout: default
+title: Default_Opportunity
+parent: pathAssistants
+grand_parent: Metadata
+---
+# Metadata Type
+pathAssistants
+
+
+# Filename 
+Default_Opportunity
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Default</masterLabel>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
+```
+
+
+# Last Modified
+
+
+# Usage

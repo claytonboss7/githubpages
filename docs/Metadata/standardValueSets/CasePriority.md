@@ -1,0 +1,42 @@
+---
+layout: default
+title: CasePriority
+parent: standardValueSets
+grand_parent: Metadata
+---
+# Metadata Type
+standardValueSets
+
+
+# Filename 
+CasePriority
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medium</fullName>
+        <default>true</default>
+        <label>Medium</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+    </standardValue>
+</StandardValueSet>
+```
+
+
+# Last Modified
+
+
+# Usage

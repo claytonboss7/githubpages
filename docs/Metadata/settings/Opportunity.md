@@ -1,0 +1,36 @@
+---
+layout: default
+title: Opportunity
+parent: settings
+grand_parent: Metadata
+---
+# Metadata Type
+settings
+
+
+# Filename 
+Opportunity
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<OpportunitySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoActivateNewReminders>true</autoActivateNewReminders>
+    <customizableProductSchedulesEnabled>false</customizableProductSchedulesEnabled>
+    <doesEnforceStandardOpportunitySaveLogic>true</doesEnforceStandardOpportunitySaveLogic>
+    <enableFindSimilarOpportunities>false</enableFindSimilarOpportunities>
+    <enableOpportunityFieldHistoryTracking>false</enableOpportunityFieldHistoryTracking>
+    <enableOpportunityTeam>true</enableOpportunityTeam>
+    <enableUpdateReminders>true</enableUpdateReminders>
+    <oppAmountDealMotionEnabled>true</oppAmountDealMotionEnabled>
+    <oppCloseDateDealMotionEnabled>true</oppCloseDateDealMotionEnabled>
+    <promptToAddProducts>false</promptToAddProducts>
+</OpportunitySettings>
+```
+
+
+# Last Modified
+
+
+# Usage

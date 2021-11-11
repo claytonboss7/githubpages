@@ -1,0 +1,30 @@
+---
+layout: default
+title: Road Rebel
+parent: userCriteria
+grand_parent: Metadata
+---
+# Metadata Type
+userCriteria
+
+
+# Filename 
+Road Rebel
+
+
+# Raw XML
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<UserCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Member criteria matches customer and partner member</description>
+    <masterLabel>Customer and Partner Members</masterLabel>
+    <userTypes>Partner</userTypes>
+    <userTypes>Customer</userTypes>
+</UserCriteria>
+```
+
+
+# Last Modified
+
+
+# Usage
