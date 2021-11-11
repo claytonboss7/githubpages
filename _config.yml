@@ -20,7 +20,7 @@ url: "https://sfdcboss.github.io" # the base hostname & protocol for your site, 
 logo: "/assets/images/rrlogo.png"
 
 permalink: pretty
-exclude: ["docs/Metadata/","node_modules/","docs copy", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
+exclude: ["node_modules/","docs copy", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
 , "docs/tests/"
 ]
 
@@ -35,7 +35,7 @@ exclude: ["docs/Metadata/","node_modules/","docs copy", "*.gemspec", "*.gem", "G
 
 # Enable or disable the site search
 # Supports true (default) or false
-search_enabled: true
+search_enabled: false
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
