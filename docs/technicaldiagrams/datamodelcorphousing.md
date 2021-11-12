@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Model - Corporate Housing
+title: Data Model - Corp Housing
 parent: Technical Diagrams
 ---
 
@@ -63,6 +63,8 @@ The Bid journals on that bid are what we expect to be on a new bid under this st
 Add Vendor
 Create another bid for the Provider
 Attach Vendor to Providers 2nd bid and ensure the Bid Journals logged for the initial bid are also present.
+
+
 |Object (RecordType)|Description|Linkage|
 |-------------|
 |Housing (Preferred Room Types)|The selections on the Housing Details tab that are at the beginning tab of the Dashboard|Production_CC__c|
